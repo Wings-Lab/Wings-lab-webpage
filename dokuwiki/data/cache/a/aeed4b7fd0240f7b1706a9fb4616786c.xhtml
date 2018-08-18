@@ -1,0 +1,101 @@
+
+<h1 class="sectionedit1" id="spectrum_sensing_with_mobile_sdrs">Spectrum Sensing with Mobile SDRs</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT1 SECTION "Spectrum Sensing with Mobile SDRs" [1-49] -->
+<h3 class="sectionedit2" id="things_to_focus_on">Things to focus on</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> Efficient radio environment mapping</div>
+<ul>
+<li class="level2"><div class="li"> Explore interpolation techniques</div>
+</li>
+<li class="level2"><div class="li"> How much labeled data reuired for interpolation?</div>
+</li>
+<li class="level2"><div class="li"> Information theoretic measure for labeled data&#039;s contribution to interpolation errors</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Reducing deployment cost for sensors</div>
+<ul>
+<li class="level2"><div class="li"> Cheap sensors</div>
+</li>
+<li class="level2"><div class="li"> Handling noisy sensor data</div>
+</li>
+<li class="level2"><div class="li"> Strategic deployment</div>
+</li>
+<li class="level2"><div class="li"> Minimization of driving effort</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Energy Efficiency</div>
+<ul>
+<li class="level2"><div class="li"> Studying energy profiles for various platforms, formulating any empirical </div>
+</li>
+<li class="level2"><div class="li"> How efficient scheduling can improve energy eficiency</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Scanning Strategies</div>
+<ul>
+<li class="level2"><div class="li"> Limited sampling rate, making best use of it.(also look Dina Katabi&#039;s work)</div>
+</li>
+<li class="level2"><div class="li"> Freq vs. Geographic coverage</div>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+<!-- EDIT2 SECTION "Things to focus on" [50-775] -->
+<h3 class="sectionedit3" id="existing_mobile_sdr_platforms">Existing Mobile SDR platforms</h3>
+<div class="level3">
+<div class="table sectionedit4"><table class="inline">
+	<tr class="row0">
+		<td class="col0" colspan="2"> SDR </td><td class="col2" colspan="2"> Sensing Range </td><td class="col4" colspan="2"> Bandwidth </td><td class="col6" colspan="2"> ADC/DAC </td><td class="col8" colspan="2"> Price </td><td class="col10" colspan="2"> Literature </td>
+	</tr>
+	<tr class="row1">
+		<td class="col0" colspan="2"> <a href="https://www.ettus.com/product/details/UB200-KIT" class="urlextern" title="https://www.ettus.com/product/details/UB200-KIT"  rel="nofollow">USRP B210</a> </td><td class="col2" colspan="2"> 70 <abbr title="Megahertz">MHz</abbr> – 6 <abbr title="Gigahertz">GHz</abbr> </td><td class="col4" colspan="2"> 56 <abbr title="Megahertz">MHz</abbr> </td><td class="col6" colspan="2"> 12 bit </td><td class="col8" colspan="2"> 675$ </td><td class="col10" colspan="2"> <code>to be updated</code> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0" colspan="2"> <a href="http://nuand.com/" class="urlextern" title="http://nuand.com/"  rel="nofollow">BladeRF</a> </td><td class="col2" colspan="2"> 300 <abbr title="Megahertz">MHz</abbr> - 3.8 <abbr title="Gigahertz">GHz</abbr> </td><td class="col4" colspan="2"> 28 <abbr title="Megahertz">MHz</abbr> </td><td class="col6" colspan="2"> 16 bit DAC </td><td class="col8" colspan="2"> 420/650$ (difference only in FPGA) </td><td class="col10 leftalign" colspan="2">  </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0" colspan="2"> <a href="https://greatscottgadgets.com/hackrf/" class="urlextern" title="https://greatscottgadgets.com/hackrf/"  rel="nofollow">HackRF</a> </td><td class="col2" colspan="2"> 30 <abbr title="Megahertz">MHz</abbr> - 6 <abbr title="Gigahertz">GHz</abbr> </td><td class="col4" colspan="2"> 20 <abbr title="Megahertz">MHz</abbr> </td><td class="col6" colspan="2"> 8 bit IQ </td><td class="col8" colspan="2"> 300$ pre-order </td><td class="col10" colspan="2"> </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0" colspan="2"> <a href="http://web.eecs.umich.edu/~prabal/pubs/papers/kuo12sdr.pdf" class="urlextern" title="http://web.eecs.umich.edu/~prabal/pubs/papers/kuo12sdr.pdf"  rel="nofollow">Prabal&#039;s MicroSDR</a> </td><td class="col2" colspan="2"> </td><td class="col4" colspan="2"> </td><td class="col6" colspan="2"> </td><td class="col8" colspan="2"> sub-150</td><td class="col10" colspan="2"> <a href="http://web.eecs.umich.edu/~prabal/pubs/papers/kuo12sdr.pdf" class="urlextern" title="http://web.eecs.umich.edu/~prabal/pubs/papers/kuo12sdr.pdf"  rel="nofollow">Sensys&#039;12</a> </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0" colspan="2"> <a href="http://sdr.osmocom.org/trac/wiki/rtl-sdr" class="urlextern" title="http://sdr.osmocom.org/trac/wiki/rtl-sdr"  rel="nofollow">RTL-2832</a> </td><td class="col2" colspan="2"> 50 <abbr title="Megahertz">MHz</abbr> - 2.2 <abbr title="Gigahertz">GHz</abbr> </td><td class="col4" colspan="2"> 2.4 <abbr title="Megahertz">MHz</abbr> </td><td class="col6" colspan="2"> 8 bit IQ </td><td class="col8" colspan="2"> 20$ </td><td class="col10" colspan="2"> Us, UCSB group </td>
+	</tr>
+</table></div>
+<!-- EDIT4 TABLE [817-1576] -->
+</div>
+<!-- EDIT3 SECTION "Existing Mobile SDR platforms" [776-1577] -->
+<h3 class="sectionedit5" id="reading_list">Reading list</h3>
+<div class="level3">
+<ol>
+<li class="level1"><div class="li"> Heather Zhang&#039;s HotWireless&#039;14 <a href="http://www.cs.ucsb.edu/~anika/hotwireless2014.pdf" class="urlextern" title="http://www.cs.ucsb.edu/~anika/hotwireless2014.pdf"  rel="nofollow">paper</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://web.eecs.umich.edu/~prabal/pubs/papers/kuo12sdr.pdf" class="urlextern" title="http://web.eecs.umich.edu/~prabal/pubs/papers/kuo12sdr.pdf"  rel="nofollow">Prabal&#039;s MicroSDR</a> paper, Sensys&#039;12.</div>
+</li>
+<li class="level1"><div class="li"> Quadrature Sampling</div>
+</li>
+<li class="level1"><div class="li"> Dynamic Range</div>
+</li>
+<li class="level1"><div class="li"> Resolution Bandwith</div>
+</li>
+<li class="level1"><div class="li"> FCC Drafts on TVWS</div>
+</li>
+</ol>
+
+</div>
+<!-- EDIT5 SECTION "Reading list" [1578-] -->

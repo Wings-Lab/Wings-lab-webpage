@@ -1,0 +1,232 @@
+/* Effective stylesheet produced by snapshot save */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+html { font-size: 100.01%; }
+body { font-size: 62.5%; line-height: 1em; }
+a:link, a:visited { text-decoration: none; cursor: pointer; }
+a:link:hover, a:visited:hover { text-decoration: underline; }
+:focus { outline: 0px none; }
+a:visited { opacity: 0.8; }
+nav ul, nav li { margin: 0px; list-style: outside none none; }
+input[type="checkbox"] { vertical-align: bottom; }
+input, select { vertical-align: middle; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0px; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; line-height: 1.2em; }
+img { max-width: 100%; vertical-align: bottom; }
+ul, ol { list-style: outside none none; }
+li { line-height: 1.2em; }
+li ul, li ol { margin-bottom: 0px; }
+.clearfix:after { content: "."; display: block; font-size: 0px; height: 0px; clear: both; visibility: hidden; }
+.clearfix { display: block; }
+.clear { clear: both; height: 1px; line-height: 1px; }
+.flL { float: left; }
+.hide { display: none; }
+body { background: none repeat scroll 0% 0% rgb(255, 255, 255); font-family: "Roboto",sans-serif; }
+.wrapper { max-width: 1000px; margin: 0px auto; }
+#header { background: none repeat scroll 0% 0% rgb(34, 34, 34); }
+#header .wrapper { background: none repeat scroll 0% 0% rgb(34, 34, 34); }
+#navigation { height: 28px; width: 100%; background: none repeat scroll 0% 0% rgb(190, 40, 25); border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
+#navigation .wrapper { position: relative; z-index: 100; background: none repeat scroll 0% 0% rgb(190, 40, 25); height: 27px; }
+.navquery { transition: all 0.5s ease 0s; }
+#header .header_top { border-bottom: 1px solid rgb(68, 68, 68); }
+#header .header_top .wrapper { padding-bottom: 5px; padding-top: 5px; }
+.header_top .date { display: block; font-size: 100%; font-weight: bold; color: rgb(255, 255, 255); line-height: 21px; float: left; text-transform: uppercase; margin-left: 10px; min-width: 230px; }
+#header .user_area { float: right; position: relative; z-index: 9999; margin-right: 5px; }
+#header .social_1 { float: left; position: relative; }
+#header .user_area .point { display: inline-block; float: left; margin-right: 10px; height: 17px; line-height: 17px; color: rgb(255, 255, 255); padding: 0px 8px; font-size: 110%; font-weight: bold; background: none repeat scroll 0% 0% rgb(150, 154, 156); border-radius: 8px; box-shadow: 0px 0px 3px rgb(173, 176, 177) inset; margin-top: 2px; }
+#header .user_area .user-controls { float: left; margin-right: 10px; position: relative; padding-top: 2px; }
+#header .user_area .user_name { float: left; display: inline-block; padding-right: 15px; line-height: 17px; color: rgb(255, 255, 255); font-size: 110%; text-transform: uppercase; font-weight: bold; position: relative; text-decoration: none; }
+.icon_down { display: inline-block; width: 14px; height: 17px; background-position: -104px -3px; }
+.user-controls:hover .icon_down { background-position: -257px -53px; }
+#header .user_area .user_name .icon_down { position: absolute; z-index: 10; right: 0px; top: 0px; }
+#header .dropdown { position: absolute; background: none repeat scroll 0% 0% rgb(255, 255, 255); width: 61px; padding: 7px 10px; right: 0px; top: 19px; z-index: 20; display: none; }
+#header .dropdown ul li { list-style: outside none none; line-height: 20px; }
+#header .dropdown ul li a { font-size: 110%; color: rgb(0, 0, 0); text-decoration: none; }
+#header .dropdown ul li span { cursor: pointer; }
+#header .dropdown ul li a:hover, .user-controls .dropdown ul li span:hover { color: rgb(228, 67, 73); }
+#header .user-controls:hover .dropdown { display: block; }
+#header .user_area span.logout-window { line-height: 21px; color: rgb(255, 255, 255); font-weight: bold; font-size: 120%; margin-right: 5px; }
+#header .user_area span.logout-window span { color: rgb(255, 255, 255); cursor: pointer; font-weight: bold; display: inline; }
+#weathershow { display: block; line-height: 25px; text-align: center; position: relative; height: 25px; }
+#weathershow span.temp_h { display: inline-block; color: rgb(255, 255, 255); font-size: 140%; font-weight: bold; margin-right: 4px; }
+#weathershow span.icon { display: inline-block; width: 25px; height: 25px; margin-right: 3px; position: relative; background-image: url("28467265.cms.png"); background-repeat: no-repeat; vertical-align: middle; top: -2px; }
+#weathershow span.temp { display: inline-block; margin-right: 3px; }
+#weathershow span.temp span { font-size: 140%; color: rgb(255, 255, 255); font-weight: bold; margin-right: 3px; }
+#weathershow .optionshome { display: inline-block; line-height: 16px; background: none repeat scroll 0% 0% rgb(231, 235, 237); border: 1px solid rgb(207, 207, 207); padding: 0px 3px; border-radius: 2px; margin-right: 3px; color: rgb(0, 0, 0); font-size: 110%; position: relative; top: -1px; }
+#weathershow .optionshome a { color: rgb(0, 0, 0); text-decoration: none; }
+#weathershow a.arrow { display: inline-block; color: rgb(255, 255, 255); font-size: 200%; line-height: 25px; font-weight: bold; text-decoration: none; }
+.wdF { display: none; }
+.header_bottom .wrapper { border-top: 0px solid rgb(234, 83, 88); padding: 10px 0px; }
+.logo { width: 510px; float: left; margin-left: 25px; }
+#header .logo a.logo-img { display: block; width: 509px; height: 40px; background-position: 0px -304px; }
+#header .adbox-left, #header .adbox-right { width: 210px; min-height: 40px; position: relative; z-index: 100 ! important; }
+#header .adbox-left { float: left; margin-left: 10px; }
+#header .adbox-right { float: right; margin-right: 10px; }
+#navigation ul.level-one { float: left; padding-left: 5px; }
+#navigation ul.level-one > li { list-style: outside none none; float: left; position: relative; background: none repeat scroll 0% 0% rgb(190, 40, 25); }
+#navigation ul.level-one > li > a { display: inline-block; padding: 0px 6px 0px 5px; line-height: 28px; font-size: 12px; color: rgb(255, 255, 255); font-weight: bold; float: left; border-right: 1px solid transparent; border-left: 1px solid transparent; }
+#navigation ul.level-one > li.nav-home:hover > a, #navigation ul.level-one > li.nav-home > a { text-decoration: none; color: rgb(255, 255, 255); }
+#navigation ul.level-one > li:hover > a, #navigation ul.level-one > li.current > a { background: none repeat scroll 0% 0% rgb(250, 250, 250); text-decoration: none; color: rgb(0, 0, 0); border-top: 0px none; }
+#navigation ul.level-one li .icon_home { display: inline-block; width: 12px; height: 0px; padding-top: 12px; position: relative; overflow: hidden; background-position: -256px -133px; background-image: url("45572001.cms.png"); background-repeat: no-repeat; }
+#navigation ul.level-one > li.service-tab { background: none repeat scroll 0% 0% rgb(190, 40, 25); }
+#navigation ul.level-one li.more { background: none repeat scroll 0% 0% rgb(190, 40, 25); position: static; }
+#navigation .wrapper { position: relative; }
+#navigation .all-sections { position: absolute; width: 98%; border-bottom: 4px solid rgb(0, 0, 0); padding: 20px 1%; left: 0px; top: 28px; z-index: 100; background: none repeat scroll 0% 0% rgb(250, 250, 250); box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.5); display: none; }
+#navigation .all-sections .column { width: 14%; padding: 0px 1%; float: left; }
+#navigation .all-sections .column h3 { font-size: 150%; color: rgb(48, 48, 48); padding: 0px 0px 8px 8px; border-bottom: 1px solid rgb(73, 71, 71); margin-bottom: 10px; }
+#navigation .all-sections .column h3 a { color: rgb(2, 112, 223); }
+#navigation .all-sections ul li { list-style: outside none none; border-bottom: 1px dashed rgb(153, 153, 153); padding: 0px 5px 8px 10px; margin-bottom: 8px; font-size: 120%; color: rgb(65, 64, 64); }
+#navigation .all-sections ul li a { color: rgb(65, 64, 64); }
+#navigation ul.level-one li.more:hover { background: none repeat scroll 0% 0% rgb(250, 250, 250); }
+#navigation ul.level-one li.more:hover a { color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(250, 250, 250); }
+#navigation li .dropdown, .nav_level2 li .dropdown { position: absolute; width: 435px; padding: 12px; background: none repeat scroll 0% 0% rgb(255, 255, 255); z-index: 200; top: 28px; border-bottom: 4px solid rgb(218, 0, 5); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5); display: none; }
+#navigation li .dropdown { background: none repeat scroll 0% 0% rgb(250, 250, 250); }
+#navigation li .dropdown.left, .nav_level2 li .dropdown.left { left: 1px; }
+#navigation li .dropdown.right, .nav_level2 li .dropdown.right { right: 0px ! important; }
+#navigation li .dropdown .two-column-layout, .nav_level2 li .dropdown .two-column-layout { background: url("urn:not-loaded:http://timesofindia.indiatimes.com/photo/45207334.cms") repeat-y scroll 0px 0px transparent; position: relative; }
+#navigation li .dropdown .left-column, .nav_level2 li .dropdown .left-column { width: 110px; float: left; padding-bottom: 55px; }
+#navigation li .dropdown .right-column, .nav_level2 li .dropdown .right-column { width: 295px; float: right; position: relative; min-height: 300px; }
+ul.list7 li { list-style: outside none none; display: block; }
+ul.list7 li a { display: block; line-height: 14px; font-size: 120%; padding: 2px 4px; color: rgb(0, 0, 0); text-decoration: none; }
+ul.list7 li.active a { background: none repeat scroll 0% 0% rgb(218, 0, 5); color: rgb(255, 255, 255); text-decoration: none; }
+#navigation li .dropdown .right-column .loader { display: none; position: absolute; z-index: 200; left: 50%; margin-left: -30px; top: 30%; }
+#navigation li .dropdown .single-column-layout .column { width: 31%; margin: 0px 1%; float: left; }
+ul.list7 li.heading { font-size: 120%; line-height: 20px; font-weight: bold; color: rgb(232, 164, 1); }
+.search-form { float: right; position: relative; width: 20px; height: 28px; margin-right: 5px; }
+.search-form .search-btn { width: 19px; height: 19px; display: block; background-position: -215px -51px; cursor: pointer; margin-top: 6px; }
+.sbtn .search-btn { width: 19px; height: 19px; display: block; background-position: -215px -51px; cursor: pointer; position: absolute; right: 0px; top: 0px; margin-top: 6px; }
+.sbtn { float: right; position: absolute; width: 20px; height: 28px; margin-right: 5px; right: 1px; }
+.search-form form { display: none; }
+.search-form input.textbox { border: 1px solid rgb(153, 153, 153); height: 16px; padding: 2px 5px; background: none repeat scroll 0px center transparent; border-radius: 2px; float: left; margin-right: 5px; width: 274px; font-size: 120%; color: rgb(204, 204, 204); }
+.search-form input.submit { border: 0px none; float: left; width: 19px; height: 19px; background-position: -483px -3px; cursor: pointer; margin-top: 4px; background-image: url("45572001.cms.png"); background-repeat: no-repeat; position: relative; top: -2px; background-color: transparent; display: none; }
+#navigation li#nav-india .dropdown, #navigation li#nav-opinion .dropdown { width: 295px; }
+#navigation li#nav-india .dropdown .two-column-layout, #navigation li#nav-opinion .dropdown .two-column-layout { background: none repeat scroll 0px center transparent; }
+#navigation li#nav-india .dropdown .two-column-layout .right-column, #navigation li#nav-opinion .dropdown .two-column-layout .right-column { float: none; }
+#navigation li.hide-left .dropdown { width: 295px; }
+#navigation li.hide-left .dropdown .two-column-layout { background: none repeat scroll 0px center transparent; }
+#navigation li.hide-left .dropdown .two-column-layout .right-column { float: none; }
+.dropdown .left-column .follow { position: absolute; left: 0px; bottom: 0px; z-index: 10; width: 110px; }
+.dropdown .left-column .follow h4 { font-size: 100%; font-weight: normal; color: rgb(127, 127, 128); line-height: 12px; margin-bottom: 3px; }
+.dropdown .left-column .follow .social-icons a { cursor: pointer; display: inline-block; width: 16px; height: 16px; margin-right: 5px; }
+.dropdown .left-column .follow .social-icons a.fb { background-position: 0px -166px; }
+.dropdown .left-column .follow .social-icons a.twitter { background-position: -17px -166px; }
+.dropdown .left-column .follow .social-icons a.gplus { background-position: -34px -166px; }
+.dropdown .left-column .follow .social-icons a.pinterest { background-position: -51px -166px; }
+.sprite_bg { background-image: url("45572001.cms.png"); background-repeat: no-repeat; }
+.social_1 span { display: inline-block; width: 21px; height: 21px; margin-right: 5px; cursor: pointer; }
+.social_1 span.fb { background-position: -372px -81px; }
+.social_1 span.fb:hover { background-position: -372px 0px; }
+.social_1 span.twitter { background-position: -398px -81px; }
+.social_1 span.twitter:hover { background-position: -398px 0px; }
+.social_1 span.google { background-position: -424px -81px; }
+.social_1 span.google:hover { background-position: -424px 0px; }
+.social_1 span.rss { background-position: -451px -81px; }
+.social_1 span.rss:hover { background-position: -451px 0px; }
+.social_1 span.youtube { background-image: url("46959278.cms.png"); }
+.social_1 span.youtube:hover { background-image: url("urn:not-loaded:http://timesofindia.indiatimes.com/photo/46959277.cms"); }
+#navigation li .dropdown.travel-green { border-bottom-color: rgb(85, 178, 41); }
+#navigation li .dropdown.cricket-lightblue { border-bottom-color: rgb(48, 167, 228); }
+#navigation li .dropdown.orange { border-bottom-color: rgb(232, 164, 1); }
+#navigation li .dropdown.tv-orange { border-bottom-color: rgb(255, 117, 25); }
+#navigation li .dropdown.rust { border-bottom-color: rgb(154, 19, 13); }
+#navigation li .dropdown.viking { border-bottom-color: rgb(61, 180, 174); }
+#navigation li .dropdown.citrus { border-bottom-color: rgb(123, 177, 1); }
+#navigation li .dropdown.blue { border-bottom-color: rgb(2, 112, 223); }
+#navigation li .dropdown.pink { border-bottom-color: rgb(207, 88, 152); }
+#navigation li .dropdown.bazaar { border-bottom-color: rgb(148, 115, 126); }
+#navigation li .dropdown.allports { border-bottom-color: rgb(3, 109, 171); }
+#navigation li .dropdown.travel-green ul.list7 li.active a { background: none repeat scroll 0% 0% rgb(85, 178, 41); }
+#navigation li .dropdown.cricket-lightblue ul.list7 li.active a { background: none repeat scroll 0% 0% rgb(48, 167, 228); }
+#navigation li .dropdown.tv-orange ul.list7 li.active a { background: none repeat scroll 0% 0% rgb(255, 117, 25); }
+#navigation li .dropdown.viking ul.list7 li.active a { background: none repeat scroll 0% 0% rgb(61, 180, 174); }
+#navigation li .dropdown.citrus ul.list7 li.active a { background: none repeat scroll 0% 0% rgb(123, 177, 1); }
+#navigation li .dropdown.blue ul.list7 li.active a { background: none repeat scroll 0% 0% rgb(2, 112, 223); }
+#navigation li .dropdown.pink ul.list7 li.active a { background: none repeat scroll 0% 0% rgb(207, 88, 152); }
+#navigation li .dropdown.allports ul.list7 li.active a { background: none repeat scroll 0% 0% rgb(3, 109, 171); }
+#navigation #nav-home span.navtxt { display: none; padding-left: 3px; }
+#navigation #nav-home > a, #navigation #nav-home:hover > a { background: none repeat scroll 0% 0% rgb(190, 40, 25); height: 28px; }
+#navigation #nav-home:hover > a { background: none repeat scroll 0% 0% rgb(250, 250, 250); }
+#navigation #nav-home:hover > a .icon_home { background-position: -485px -52px; }
+.tv-orange .left-column ul li:nth-child(2) { display: none; }
+ul.list6 { color: rgb(186, 1, 15); margin-left: 12px; }
+ul.list6 li { list-style: outside none square; line-height: 15px; margin-bottom: 5px; }
+ul.list6 li a { font-size: 110%; color: rgb(0, 0, 0); font-weight: bold; }
+ul.list6 li.main-story { list-style: outside none none; border-bottom: 1px solid rgb(213, 217, 218); padding-bottom: 10px; margin-bottom: 10px; position: relative; margin-left: -12px; }
+ul.list6 li.main-story figure { float: left; width: 100px; height: 64px; border: 1px solid rgb(98, 99, 101); margin: 0px 10px 5px 0px; }
+ul.list6 li.main-story figure img { width: 100px; height: 64px; }
+ul.list6 li.main-story a { font-size: 130%; line-height: 15px; color: rgb(0, 0, 0); }
+ul.list6 li.thumbnail { list-style: outside none none; float: left; position: relative; width: 144px; height: 92px; margin: 0px 2px 2px 0px; }
+ul.list6 li.thumbnail span.caption { position: absolute; display: block; width: 96%; padding: 4px 2%; background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5); color: rgb(255, 255, 255); left: 0px; bottom: 0px; font-size: 110%; line-height: 16px; }
+ul.list6.thumbnails { margin-left: 0px; }
+ul.list6 li.thumbnail figure img { width: 144px; height: 92px; }
+#footer .level1 { background: none repeat scroll 0% 0% rgb(228, 67, 73); }
+#footer .level1 .wrapper { background: none repeat scroll 0% 0% rgb(228, 67, 73); }
+#footer .level1 .column { float: left; border-right: 1px solid rgb(208, 55, 60); padding: 10px 2%; border-left: 1px solid rgb(234, 83, 88); width: 16%; min-height: 90px; }
+#footer .level1 .column.first { border-left: 0px none; width: 25%; }
+#footer .level1 .column.last { border-right: 0px none; width: 25%; }
+#footer .level1 ul li { list-style: outside none none; margin-bottom: 5px; font-size: 110%; line-height: 13px; }
+#footer .level1 ul li a { color: rgb(255, 255, 255); }
+#footer .level2 { background: none repeat scroll 0% 0% rgb(54, 53, 53); }
+#footer .level2 .wrapper { background: none repeat scroll 0% 0% rgb(54, 53, 53); padding: 22px 0px 14px; }
+.sitemap { border-bottom: 1px solid rgb(0, 0, 0); padding-bottom: 5px; }
+.sitemap .column1 { width: 46%; margin-left: 1%; float: left; }
+.sitemap .column2 { width: 51%; margin-left: 1%; float: right; }
+.sitemap h5 { font-size: 120%; color: rgb(255, 255, 255); line-height: 14px; margin-bottom: 5px; }
+.sitemap p { margin-bottom: 10px; color: rgb(209, 210, 212); font-size: 110%; line-height: 16px; }
+.sitemap p a { color: rgb(209, 210, 212); }
+#footer .followus { text-align: center; border-top: 1px solid rgb(84, 82, 82); padding-top: 11px; }
+#footer .followus h3 { font-size: 160%; color: rgb(255, 255, 255); line-height: 17px; margin-bottom: 11px; font-family: Arial,Helvetica,sans-serif; }
+#footer .followus span { display: inline-block; width: 44px; height: 44px; margin: 0px 8px; cursor: pointer; }
+#footer .followus span.fb { background-position: 0px -26px; }
+#footer .followus span.twitter { background-position: -60px -26px; }
+#footer .followus span.google { background-position: -120px -26px; }
+#footer .level3 { background: none repeat scroll 0% 0% rgb(23, 21, 21); border-bottom: 2px solid rgb(133, 131, 131); }
+#footer .level3 .wrapper { background: none repeat scroll 0% 0% rgb(23, 21, 21); padding: 18px 0px 12px; }
+.top-trends { padding-left: 96px; position: relative; }
+.top-trends h2 { position: absolute; text-align: center; width: 90px; left: 0px; top: 20px; font-size: 180%; line-height: 24px; color: rgb(255, 255, 255); font-family: Arial,Helvetica,sans-serif; }
+.top-trends .column { float: left; width: 31%; padding: 0px 1%; border-left: 1px solid rgb(54, 53, 53); min-height: 86px; }
+.top-trends ul.list3 { margin-bottom: -8px; }
+.top-trends ul.list3 li { list-style: outside none none; padding-left: 11px; font-size: 110%; line-height: 14px; margin-bottom: 8px; color: rgb(180, 180, 180); }
+.top-trends ul.list3 li a { color: rgb(180, 180, 180); }
+#footer .level4 { background: none repeat scroll 0% 0% rgb(75, 74, 74); }
+#footer .level4 .wrapper { background: none repeat scroll 0% 0% rgb(75, 74, 74); padding: 12px 0px; }
+#footer .level4 p { text-align: center; font-size: 110%; line-height: 15px; color: rgb(255, 255, 255); }
+#footer .level4 p a { color: rgb(255, 255, 255); }
+.breaking-news { padding-top: 10px; }
+.js-hidden { display: none; }
+.droparw { background: url("urn:not-loaded:http://timesofindia.indiatimes.com/photo/27589586.cms") no-repeat scroll 0px bottom transparent; display: inline-block; height: 5px; margin: 0px 0px 0px 5px; width: 8px; vertical-align: middle; }
+#navigation li.hover .droparw, #navigation li:hover .droparw { background-position: 0px bottom; }
+#mobilesearch { display: none; }
+li a[href="/mfsimplified.cms"] { color: rgb(218, 0, 5) ! important; font-weight: bold; }
+@media only screen and (max-width: 1024px) {
+  #navigation { margin-right: -1px; }
+  .gallery-widget .next-btn, .gallery-widget .previous-btn { display: block; height: 37px; margin-left: 6px; width: 20px; top: -38px; right: 5px; cursor: pointer; }
+  .gallery-widget .next-btn { background-position: -314px -27px; right: 0px; }
+  .gallery-widget .previous-btn { left: -6px; background-position: -296px -27px; }
+  .gallery-widget .title-bar { padding: 0px 25px; }
+}
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  #navigation ul.level-one > li > a { padding: 0px 6px; }
+  #navigation .wrapper { width: 748px; margin: 0px auto; }
+  .trending .wrapper, .breaking-news .wrapper { width: 655px; }
+  #content .wrapper, .navbdcrumb { width: 655px; margin: 0px auto; }
+  #header, #content, .trending { padding-left: 10px; padding-right: 10px; }
+  #navigation { width: 100%; margin-right: -1px; }
+  #content { overflow-x: hidden; padding: 0px; width: 100%; }
+  #header .adbox-left, #header .adbox-right { display: none; }
+  .logo { float: none; margin: 0px auto 10px; }
+  .TPBottomPopCont { width: 768px ! important; }
+  .search-form { margin-right: 3px; }
+  #navigation li#nav-sports .dropdown.left, #navigation li#nav-entertainment .dropdown.left { left: -62px; }
+  #navigation li#nav-life .dropdown.left { left: -153px; }
+  #nav-opinion, #nav-life { display: none; }
+  #navigation li.service-tab { display: none; }
+  .sbtn .search-btn { right: -2px; }
+}
+@media screen and (max-width: 767px) {
+  #container, #header, #navigation, #footer { width: 1000px; margin: 0px auto; }
+  .wrapper { width: 100% ! important; max-width: inherit; }
+}
+#navigation ul.level-one > li > a { font-family: "Roboto","trebuchet ms",serif ! important; }
+#content .wrapper { padding-top: 8px; }

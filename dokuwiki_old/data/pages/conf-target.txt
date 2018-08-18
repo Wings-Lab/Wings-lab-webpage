@@ -1,0 +1,18 @@
+====== 2015 Conference Deadlines / Targets ======
+
+===== HotMobile'15 ===== 
+  * October 6, 2014 
+  * Target [[eeg|EEG project]]
+===== MobiSys'15 =====
+  * Approx December 10 [[http://comments.gmane.org/gmane.comp.hci.acm-sigchi.announce/13964| colocated with WWW'15]]
+  * Target [[tvws-databases|Mobile SDR Project]]
+===== Sigcomm'15 =====
+===== MobiCom'15 =====
+  * Net Neutrality Idea
+===== IMC'15 =====
+===== Infocom'15 =====
+===== HotNets'15 =====
+===== HotMobile'15 =====
+===== NSDI'15 =====
+===== Sigmetrics'15 =====
+===== DEV'15 =====

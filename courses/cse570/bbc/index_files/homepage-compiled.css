@@ -1,0 +1,262 @@
+/* Effective stylesheet produced by snapshot save */
+.column { float: left; }
+.column { padding-top: 10px; }
+.colA { padding-top: 0px ! important; overflow: auto; width: 976px; margin-bottom: 24px; }
+.colB { overflow: auto; width: 624px; }
+.colC { padding-left: 16px; padding-top: 40px; width: 336px; }
+.hide { display: none ! important; }
+.offscreen { left: -5000px ! important; position: absolute ! important; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix {  }
+#exploreTray { background: none repeat scroll 0% 0% rgb(174, 174, 174); padding: 16px; clear: both; }
+#exploreTray h2 { font-size: 1.714em; color: rgb(0, 0, 0); margin-bottom: 16px; }
+#exploreTray .directory { overflow: auto; width: 100%; }
+#exploreTray .directoryColumn { float: left; position: relative; width: 188px; }
+.directoryColumnWrapper { float: left; }
+#exploreTray ul, #exploreTray h3.noSubSections { padding-bottom: 8px; }
+#exploreTray h3 a { color: rgb(49, 49, 49); font-size: 1.231em; font-weight: bold; }
+#exploreTray ul.headingSpace { padding-top: 22px; }
+#exploreTray li { line-height: 1.308em; }
+#exploreTray a { color: rgb(255, 255, 255); }
+.aToz { clear: both; font-size: 1.231em; padding: 30px 0px 0px; color: rgb(49, 49, 49); }
+#exploreTray .aToz a { color: rgb(49, 49, 49); font-weight: bold; }
+.colC { padding-top: 10px; }
+body { font-family: Arial,sans-serif; letter-spacing: 0px; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+.list li { font-weight: bold; line-height: 1.231em; }
+.blq-gvl-3 #blq-pre-mast, .blq-gvl-3 #blq-main, #blq-pre-mast, #blq-main { font-family: arial,sans-serif; font-size: 1.4em; line-height: 1.6em; color: rgb(60, 60, 60); }
+.wwhp {  }
+.wwhp h1, .wwhp h2, .wwhp h3, .wwhp h4, .wwhp h5 { color: rgb(0, 0, 0); }
+.page_title { margin: 0px; height: 30px; padding: 0px; border-bottom: 0px none; font-weight: normal; font-size: 1.714em; font-family: "Gill Sans MT","Gill Sans",arial,helvetica,sans-serif; text-transform: uppercase; color: rgb(76, 76, 76) ! important; }
+p { color: rgb(80, 80, 80); }
+h2, h3 { color: rgb(50, 50, 50); }
+h2 a, .contentBlocks a { color: rgb(23, 79, 130); }
+#blq-pre-mast, #bbccom_leaderboard_container { width: 976px ! important; }
+#adMpu .advert { margin-left: 0px; }
+.bbccom_module .moduleAdvertContent { padding: 0px; }
+.bbccom_module .bbccom_module_image { width: 88px; height: 31px; float: right; }
+.bbccom_module .moduleAdvertContent .bbccom_text { margin: 0px; width: auto; }
+#adLeaderboard, .colB .bbccom_module .moduleAdvertContent .bbccom_text, #spotlight .bbccom_module .moduleAdvertContent .bbccom_text, #broadcast .bbccom_module .moduleAdvertContent .bbccom_text, #weather .bbccom_module .moduleAdvertContent .bbccom_text { float: none; }
+.column .bbccom_module { float: right; margin-top: -64px; padding-right: 10px; }
+.bbccom_display_none { display: none ! important; }
+.list li { border-bottom: 1px solid rgb(239, 239, 239); padding: 4px 0px; }
+.livestats .tab { padding: 10px 15px; font-size: 1.2em; position: relative; background: none repeat scroll 0% 0% transparent; z-index: 100; }
+.livestats .tab a { color: rgb(60, 60, 60); }
+.livestats .tab a:hover { text-decoration: none; }
+.livestats .panel { position: relative; overflow: hidden; width: 336px; }
+.livestats .panel { background: none repeat scroll 0% 0% rgb(246, 246, 246); }
+.livestats .panel li { clear: both; display: block; overflow: hidden; position: relative; font-weight: bold; }
+.livestats .panel li a { display: block; overflow: visible; padding: 11px 29px 12px 16px; position: relative; }
+.blq-js .livestats .panel li a { padding: 12px 36px 12px 0px; line-height: 1.2; }
+.livestats .panel li.first-child { border-top: 0px none; }
+.livestats .panel li.first-child a { padding-top: 12px; }
+.blq-js .livestats-tabbed .tab { background: none repeat scroll 0% 0% rgb(51, 51, 51); color: rgb(255, 255, 255); float: left; display: inline; top: 0px; padding: 10px 15px; border-right: 1px solid rgb(255, 255, 255); font-size: 1.143em; cursor: pointer; }
+.blq-js .livestats-tabbed .tab a { color: rgb(255, 255, 255); }
+.blq-js .livestats-tabbed .tab:last-of-type { border-right: 0px none; }
+.blq-js .livestats-tabbed .selected { background: none repeat scroll 0% 0% rgb(241, 241, 238); display: inline; }
+.blq-js .livestats-tabbed .selected a { background: none repeat scroll 0% 0% rgb(241, 241, 238); color: rgb(51, 51, 51); }
+.blq-js .livestats-tabbed .panel { position: absolute; float: right; clear: right; margin-right: 0px; margin-top: 42px; opacity: 0; z-index: -1; display: none; }
+.blq-js .livestats-tabbed div.selected { margin-right: -336px; opacity: 1; position: relative; right: 336px; width: 336px; transition: opacity 0.2s ease-in 0s; z-index: 100; display: inline; }
+.livestats-icon { text-align: right; position: absolute; right: 0px; top: 50%; margin-top: -18px; height: 36px; width: 36px; cursor: pointer; overflow: hidden; transition: all 1s ease-out 0s; font-size: 32px; color: rgb(169, 169, 169); }
+.livestats a:hover .livestats-icon, .livestats a:focus .livestats-icon { color: rgb(102, 102, 102); transition: all 0.2s ease-in 0s; }
+.contentBlocks { overflow: hidden; }
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16, .grid_17, .grid_18, .grid_19, .grid_20, .grid_21, .grid_22, .grid_23, .grid_24, .grid_25, .grid_26, .grid_27, .grid_28, .grid_29, .grid_30, .grid_31 { display: inline; float: left; position: relative; margin-left: 8px; margin-right: 8px; }
+.first { margin-left: 0px; }
+.last { margin-right: 0px; }
+.grid_5 { width: 144px; }
+.grid_7 { width: 208px; }
+.grid_10 { width: 304px; }
+.grid_13 { width: 400px; }
+.container:before, .container:after { content: ""; display: table; }
+.container:after { clear: both; }
+.container {  }
+.module2 { padding-bottom: 24px; margin: 0px 0px 16px; border-bottom: 1px solid rgb(238, 238, 238); line-height: 1.308em; width: 100%; clear: both; position: relative; }
+.module2 a { color: rgb(0, 0, 0); font-weight: bold; letter-spacing: -0.4px; }
+.module2 .module_title { margin: 0px; padding: 0px; min-height: 28px; height: auto ! important; border-bottom: 0px none; font-weight: normal; font-size: 1.571em; line-height: 1.077em; font-family: "Gill Sans MT","Gill Sans",arial,helvetica,sans-serif; text-transform: uppercase; color: rgb(76, 76, 76); position: relative; }
+.module2 .module_title a, .module2 .module_title span { display: inline-block; position: absolute; bottom: 0px; left: 0px; margin: 0px; padding: 0px; border-bottom: 3px solid transparent; text-decoration: none; color: inherit; font-weight: normal; letter-spacing: 0px; transition: border-color 0.2s ease 0s; }
+.module2 .module_title a { color: rgb(0, 0, 0); }
+.module2 .module_title a:hover { border-color: rgb(0, 0, 0); }
+.sub_module .module_title { font-family: arial,helvetica,sans-serif; font-size: 1em; font-weight: bold; }
+.sub_module .module_title a, .sub_module .module_title span { padding-bottom: 2px; font-weight: bold; }
+.module2 .module_title .icon { position: static; margin-top: -2px; padding: 0px 6px 0px 2px; font-size: 14px; }
+.half_module { width: 304px; margin-right: 16px; float: left; clear: none; }
+.half_module:last-of-type, .half_module:nth-of-type(2n) { margin-right: 0px; }
+.module_padded .module_contents { background: none repeat scroll 0% 0% rgb(241, 241, 239); padding: 16px; }
+.module_inverse .module_contents { background: none repeat scroll 0% 0% rgb(36, 37, 40); color: rgb(255, 255, 255); }
+.module_inverse a, .module_inverse p { color: rgb(255, 255, 255); }
+.module_compound { margin: 0px 0px 16px; border-bottom: 1px solid rgb(238, 238, 238); }
+.module_compound .module2 { border-bottom: 0px none; margin-bottom: 0px; }
+.module2 .sponsor { position: absolute; z-index: 11; top: 0px; right: 0px; }
+.module2 .sponsor .bbccom_module { margin: 0px; padding-right: 0px; }
+.module2 .sponsor .bbccom_module_adlabel, .module2 .sponsor .bbccom_module_image { float: left ! important; }
+.module2 .sponsor .bbccom_module_adlabel { padding: 22px 4px 0px 0px; line-height: 1 ! important; }
+.module_footer_links { border-top: 2px solid rgb(255, 255, 255); margin-top: 16px; padding: 12px 16px; background: none repeat scroll 0% 0% rgb(249, 249, 247); clear: both; }
+.module_footer_links ul { float: right; }
+.module_footer_links ul li { float: left; padding: 0px 8px; border-right: 1px solid rgb(0, 0, 0); }
+.module_footer_links ul li.last { padding-right: 0px; border-right: 0px none; }
+.module_footer_links ul li.first { padding-left: 0px; }
+.module_footer_links ul li a { display: block; line-height: 1; }
+.hero2 { padding-bottom: 0px; }
+.hero_title { line-height: 1.222em; display: block; font-size: 1.286em; margin-bottom: 4px; }
+.hero_title_prefix { line-height: 1em; color: rgb(199, 199, 199); text-transform: uppercase; font-size: 0.778em; }
+.hero_image_link { display: block; position: relative; margin-bottom: 4px; }
+.hero_image { display: block; background-color: rgb(220, 220, 220); transition: opacity 0.2s ease 0s; }
+.hero_image_link:hover .hero_image { opacity: 0.9; }
+.hero_image_overlay { display: block; position: absolute; bottom: 0px; left: 0px; width: 100%; z-index: 10; }
+.hero_image_overlay .hero_image_overlay_text { display: block; background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5); padding: 12px 16px; }
+.hero_image_overlay .hero_title, .hero_image_overlay .hero_summary { margin: 0px; display: block; color: rgb(255, 255, 255); }
+.hero_summary { font-weight: normal; line-height: 1.214em; color: rgb(60, 60, 60); }
+.hero_summary:last-child { margin-bottom: 0px; }
+.module_padded .hero_image_link { margin: -16px -16px 16px; }
+.media_list { list-style: outside none none; margin: 0px; padding: 0px; }
+.media_link { display: block; line-height: 1.214em; font-weight: bold; color: rgb(0, 0, 0); }
+.media_image { display: block; position: relative; font-weight: normal; color: rgb(76, 76, 76); margin-bottom: 4px; background-color: rgb(220, 220, 220); transition: opacity 0.2s ease 0s; }
+.media_image img { display: block; }
+.media_link:hover .media_image { opacity: 0.9; }
+.media_image .icon { position: absolute; bottom: 0px; left: 0px; z-index: 10; }
+.media_items_landscape .media_list_item { margin-bottom: 16px; }
+.media_items_landscape .media_link { overflow: hidden; }
+.media_items_landscape .media_image { float: left; margin: 0px 8px 0px 0px; }
+.media_items_landscape .media_list_item:last-child, .media_items_landscape .media_list li.last { margin-bottom: 0px; }
+.media_link_list { margin-top: 8px; }
+.media_link_list:first-child, .media_link_list:only-child { margin-top: 0px; }
+.media_link_list_item { margin-bottom: 8px; }
+.media_link_list_item:last-child, .media_link_list li.last { margin-bottom: 0px; }
+.media_link_list_item .last { float: right; }
+.media_link_list_item .first { float: left; }
+.metadata_list { margin-top: 0px; }
+@font-face {
+  font-family: "wwhp-icons";
+  font-style: normal;
+  font-weight: normal;
+  src: url("urn:not-loaded:http://static.bbci.co.uk/wwhp/1.69.0/fonts/wwhp-icons.eot?jcb=1430396343") format("embedded-opentype"), url("wwhp-icons.woff") format("woff"), url("urn:not-loaded:http://static.bbci.co.uk/wwhp/1.69.0/fonts/wwhp-icons.ttf?jcb=1430396343") format("truetype"), url("urn:not-loaded:http://static.bbci.co.uk/wwhp/1.69.0/fonts/wwhp-icons.svg?jcb=1430396343") format("svg");
+}
+.icon { color: rgb(0, 0, 0); font-family: "wwhp-icons"; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; font-size: 12px; display: inline-block; text-align: center; transition: all 0.3s ease 0s; }
+.icon_inline { padding-right: 6px; }
+.icon_large, .icon_medium, .icon_small { background: none repeat scroll 0% 0% rgb(255, 255, 255); z-index: 10; }
+a:hover .icon_large, a:hover .icon_medium, a:hover .icon_small { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.8); color: rgb(255, 255, 255); }
+.icon_small { width: 24px; height: 24px; line-height: 24px; font-size: 12px; }
+.icon_audio:before, .icon_listen:before { content: ""; }
+.icon_video:before { content: ""; }
+.icon_tv:before { content: ""; }
+.promo { line-height: 1.308em; width: 100%; }
+.promo .hero2 { margin-bottom: 16px; }
+.promo .hero_title { font-weight: bold; letter-spacing: -1px; font-size: 1.714em; }
+.news .module_title a, .news_local .module_title a, .uk_news .module_title a, .asia_news .module_title a, .india_news .module_title a, .africa_news .module_title a, .special_report .module_title a { color: rgb(175, 35, 36); }
+.news .module_title a:hover, .news_local .module_title a:hover, .uk_news .module_title a:hover, .asia_news .module_title a:hover, .india_news .module_title a:hover, .africa_news .module_title a:hover, .special_report .module_title a:hover { border-color: rgb(175, 35, 36); }
+.business .module_title a { color: rgb(175, 35, 36); }
+.business .module_title a:hover { border-color: rgb(175, 35, 36); }
+.sport .module_title a { color: rgb(0, 0, 0); }
+.sport .module_title a:hover { border-color: rgb(250, 226, 68); }
+.more .module_title { min-height: 40px; height: auto ! important; }
+.more .module_title a { color: rgb(175, 35, 36); }
+.more .module_title a:hover { border-color: rgb(175, 35, 36); }
+.autos .module_title a { color: rgb(191, 126, 6); }
+.autos .module_title a:hover { border-color: rgb(191, 126, 6); }
+.capital .module_title a { color: rgb(19, 87, 188); }
+.capital .module_title a:hover { border-color: rgb(19, 87, 188); }
+.earth .module_title a { color: rgb(10, 128, 69); }
+.earth .module_title a:hover { border-color: rgb(10, 128, 69); }
+.culture .module_title a { color: rgb(53, 43, 103); }
+.culture .module_title a:hover { border-color: rgb(53, 43, 103); }
+.future .module_title a { color: rgb(0, 0, 0); }
+.future .module_title a:hover { border-color: rgb(0, 0, 0); }
+.travel .module_title a { color: rgb(22, 91, 72); }
+.travel .module_title a:hover { border-color: rgb(22, 91, 72); }
+.spotlight .module_title a { color: rgb(0, 0, 0); }
+.spotlight .module_title a:hover { border-color: rgb(0, 0, 0); }
+.spotlight .sponsor { width: 126px; }
+.spotlight .sponsor .bbccom_module_adlabel, .spotlight .sponsor .bbccom_module_image { float: right ! important; }
+.spotlight .sponsor .bbccom_module_adlabel { padding: 0px 0px 4px; }
+.most_popular_content { background: none repeat scroll 0% 0% rgb(241, 241, 238); }
+.most_popular_list { padding: 4px 16px 8px; }
+.most_popular .livestats-tabbed .tab { padding: 10px 0px; text-align: center; width: 50%; border: 0px none; }
+.weather .module_title a { color: rgb(17, 85, 148); }
+.weather .module_title a:hover { border-color: rgb(17, 85, 148); }
+.weather .icon { vertical-align: middle; }
+.weatherforecast { background: none repeat scroll 0% 0% rgb(241, 241, 238); }
+#weather h3 { display: block; float: left; font-size: 1.286em; font-weight: bold; padding: 16px 16px 8px; }
+.weatherforecast dl.dayForecast { clear: both; overflow: hidden; padding: 8px 16px 16px; }
+.weatherforecast dl.dayForecast dt { overflow: hidden; font-size: 1.25em; font-weight: bold; }
+.weatherforecast dl.dayForecast dt, .weatherforecast dl.dayForecast dd { clear: none; color: rgb(82, 82, 82); float: left; margin-top: 0px; text-align: left; width: 80px; padding-right: 6px; }
+.weatherforecast dl.dayForecast dd { line-height: normal; margin-left: -86px; padding: 22px 32px 0px 0px; width: 80px; }
+.weatherforecast dl.dayForecast dt.last, .weatherforecast dl.dayForecast dd.last { padding-right: 0px; width: 74px; }
+.weatherforecast dl.dayForecast dd.last { margin-left: -74px; }
+.weatherforecast dl.dayForecast dd a { background-color: white; display: block; height: 80px; line-height: 80px; margin-bottom: 12px; text-align: center; width: 80px; }
+.weatherforecast .edit { background: none repeat scroll 0px 0px rgb(255, 255, 255); color: rgb(117, 117, 117); cursor: pointer; display: block; float: right; line-height: 24px; margin: 8px 8px 0px 0px; padding: 0.1em 0.7em; }
+.weatherforecast .edit:hover { text-decoration: underline; }
+.weatherforecast .max { font-weight: bold; }
+.weatherforecast .temp .label { width: 30px; display: inline-block; vertical-align: text-top; }
+.weatherforecast .temp { font-size: 1em; width: 80px; white-space: nowrap; }
+.weatherforecast .max .value { font-size: 1.429em; line-height: 1em; }
+.weatherforecast .min .value { font-size: 1.286em; }
+.weatherforecast .value { vertical-align: middle; }
+.weatherforecast .searchPanel { border-bottom: 2px solid rgb(255, 255, 255); clear: both; display: none; margin-bottom: 8px; }
+.weatherforecast .searchPanel #weather_searchPanel_form { margin: 0px 8px 8px 16px; }
+.weatherforecast .searchPanel #weather_searchPanel_form label { display: none; }
+.weatherforecast .searchPanel #weather_searchPanel_form .field { background: none repeat scroll 0% 0% rgb(255, 255, 255); overflow: auto; width: 312px; }
+.weatherforecast .searchPanel #weather_searchPanel_form .field input { background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 0px none; color: rgb(117, 117, 117); padding: 4px; font-size: 12px; width: 270px; }
+.weatherforecast .searchPanel #weather_searchPanel_form .field .submit { background: url("urn:not-loaded:http://static.bbci.co.uk/wwhp/1.69.0/desktop/img/weather/search.jpg?jcb=1430396343") no-repeat scroll 0px 0px transparent; border: 0px none; cursor: pointer; float: right; height: 23px; padding: 0px; width: 26px; text-indent: -1000em; }
+.weatherforecast .searchPanel .results { display: none; }
+.weatherforecast .searchPanel .results p { border-bottom: 1px solid rgb(255, 255, 255); padding: 0px 8px 8px 16px; }
+.weatherforecast .searchPanel .results ul { padding: 8px 16px; }
+.weatherforecast .searchPanel .results ul:empty { padding: 0px; }
+.weatherforecast .searchPanel .results ul li { padding: 4px 0px; font-weight: bold; }
+.worldservice .module_title { color: rgb(0, 0, 0); }
+.worldservice .module_title a:hover { border-color: rgb(0, 0, 0); }
+.worldservice { border-bottom-color: rgb(255, 255, 255); }
+#worldService_container { background: none repeat scroll 0% 0% rgb(240, 240, 240); }
+.ws-stories { padding: 16px; }
+.ws-story { float: left; width: 140px; padding-right: 10px; }
+.ws-story--last { padding-right: 0px; }
+.ws-story__language { margin-bottom: 8px; }
+.worldservice_languages { padding: 16px; }
+#worldService_languages_title { margin-bottom: 8px; }
+.worldservice_languages { border-top: 2px solid rgb(255, 255, 255); }
+#worldService_languages li { float: left; width: 148px; padding: 5px 0px; }
+#worldService_languages li a { color: rgb(0, 0, 0); background: url("languages-sprite.png") no-repeat scroll 0px 0px transparent; }
+#worldService_languages li .as { padding-right: 84px; background-position: 38px -2px; }
+#worldService_languages li .bn { padding-right: 36px; background-position: 50px -21px; }
+#worldService_languages li .my { padding-right: 33px; background-position: 61px -42px; }
+#worldService_languages li .zh { padding-right: 39px; background-position: 56px -62px; }
+#worldService_languages li .fr { padding-right: 57px; background-position: 49px -81px; }
+#worldService_languages li .ha { padding-right: 45px; background-position: 44px -102px; }
+#worldService_languages li .hi { padding-right: 35px; background-position: 38px -122px; }
+#worldService_languages li .id { padding-right: 68px; background-position: 75px -142px; }
+#worldService_languages li .rw { padding-right: 56px; background-position: 87px -162px; }
+#worldService_languages li .rn { padding-right: 53px; background-position: 51px -182px; }
+#worldService_languages li .ky { padding-right: 53px; background-position: 48px -202px; }
+#worldService_languages li .ne { padding-right: 41px; background-position: 46px -222px; }
+#worldService_languages li .ps { padding-right: 46px; background-position: 48px -243px; }
+#worldService_languages li .pt-BR { padding-right: 47px; background-position: 77px -262px; }
+#worldService_languages li .si { padding-right: 33px; background-position: 54px -301px; }
+#worldService_languages li .so { padding-right: 51px; background-position: 50px -322px; }
+#worldService_languages li .sw { padding-right: 53px; background-position: 52px -342px; }
+#worldService_languages li .ta { padding-right: 42px; background-position: 39px -363px; }
+#worldService_languages li .tr { padding-right: 52px; background-position: 51px -381px; }
+#worldService_languages li .uk { padding-right: 76px; background-position: 66px -402px; }
+#worldService_languages li .ur { padding-right: 26px; background-position: 35px -423px; }
+#worldService_languages li .uz { padding-right: 47px; background-position: 44px -442px; }
+#worldService_languages li .vi { padding-right: 69px; background-position: 78px -462px; }
+#worldService_languages li .ru { padding-right: 80px; background-position: 56px -282px; }
+#worldService_languages li .ar { padding-right: 43px; background-position: 47px -482px; }
+#worldService_languages li .fa { padding-right: 40px; background-position: 53px -502px; }
+#worldService_languages li .es { padding-right: 51px; background-position: 57px -522px; }
+.bbcchannel .module_contents { padding: 16px; border-bottom: 2px solid rgb(255, 255, 255); }
+.bbcchannel .bbcchannel_promo { margin-bottom: 0px; border-bottom: 2px solid rgb(255, 255, 255); letter-spacing: -0.4px; }
+.bbcchannel .hero_image_link { margin-bottom: 0px; }
+.bbcchannel .hero_image_link img { color: rgb(0, 0, 0); }
+.bbcworldnews .module_title a:hover { border-color: rgb(175, 35, 36); }
+.module_inverse .bbcchannel_now { background-color: rgb(66, 66, 66); }
+.bbcchannel .bbcchannel_now { padding: 0px; border-bottom: 0px none; }
+.bbcchannel .bbcchannel_links { padding: 12px 16px; }
+.bbcchannel_now .hero_image_link { float: left; }
+.bbcchannel_now .hero_title { line-height: 1.111em; color: rgb(255, 255, 255); margin: 0px 0px 0px 144px; padding: 12px 12px 8px; }
+.bbcchannel_now .hero_title_prefix { display: block; margin-bottom: 4px; }
+.bbcworldservice .hero_title_prefix { color: rgb(102, 102, 102); }
+.bbcworldservice .hero_title_prefix { padding-right: 12px; }
+.bbcworldservice .programme { float: left; font-weight: bold; }
+.bbcworldservice .programme_time, .bbcworldservice .hero_title { display: inline; line-height: 1em; }
+.bbcworldservice .metadata_list { float: right; }

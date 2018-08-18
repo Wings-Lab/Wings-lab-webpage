@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="FeedCreator 1.7.2-ppt DokuWiki" -->
+<?xml-stylesheet href="http://www.wings.cs.stonybrook.edu/dokuwiki/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://www.wings.cs.stonybrook.edu/dokuwiki/feed.php">
+        <title>WINGS Lab</title>
+        <description></description>
+        <link>http://www.wings.cs.stonybrook.edu/dokuwiki/</link>
+        <image rdf:resource="http://www.wings.cs.stonybrook.edu/dokuwiki/.wings.cs.stonybrook.edu/dokuwiki/lib/tpl/dokuwiki/images/favicon.ico" />
+       <dc:date>2017-05-30T20:22:59-04:00</dc:date>
+        <items>
+            <rdf:Seq>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="http://www.wings.cs.stonybrook.edu/dokuwiki/.wings.cs.stonybrook.edu/dokuwiki/lib/tpl/dokuwiki/images/favicon.ico">
+        <title>WINGS Lab</title>
+        <link>http://www.wings.cs.stonybrook.edu/dokuwiki/</link>
+        <url>http://www.wings.cs.stonybrook.edu/dokuwiki/.wings.cs.stonybrook.edu/dokuwiki/lib/tpl/dokuwiki/images/favicon.ico</url>
+    </image>
+</rdf:RDF>

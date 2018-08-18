@@ -1,0 +1,21 @@
+====== Welcome to WINGS Wiki ======
+
+Hi! You can use this wiki for keeping track of your various projects and collaborate with lab mates. Once you are done with the project you can optionally make the project wikipage public and then we can add the link to the project in the [[http://www.wings.cs.sunysb.edu/|lab webpage]]. 
+
+
+===== Projects =====
+
+If you are maintaining your project in this Wiki put the project-page link [[all-projects|here]]. You might keep the individual project-pages private for your own use. 
+
+===== Publications =====
+
+Share the ''publications/technical-reports'' that you want to be listed in the lab webpage [[all-publications|here]]. This should be a central listing for all the publications. Make sure the ''urls'' you put are alive. 
+
+===== People (contacts) =====
+This should be very handy at times in case someone doesn't have the number. Please put your name and your contact (pref. cell number) [[people-contact|here]]. Note that all these pages are only accessible only to lab members.
+
+===== Miscellaneous Issues =====
+FIXME kind of stuff! Probably everything [[misc-issues|here]] redirects to Brian :-P. Following are some examples ... go to  [[misc-issues|this page]] and feel free to add stuff.
+
+===== Editing this Wiki =====
+Please please feel free to edit this Wiki, keep it upto date with your projects and stuff. In general it would be easy for someone to update the [[http://www.wings.cs.sunysb.edu/|lab webpage]] following the updates in this Wiki. If you are a rookie in Wiki editing follow this [[http://trac.edgewall.org/wiki/WikiFormatting|Cheat Sheet]] or just follow the existing template.

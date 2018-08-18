@@ -1,0 +1,57 @@
+/* Custon csss */
+
+
+
+.carousel-caption {
+	background-color:rgba(0,0,0,0.5);
+ 	right: 15%;
+  	left: 15%;
+  	z-index: 10;
+  	padding-top: 5px;
+}
+
+hr {
+
+	border-style: solid none;
+	border-width: 1px 0;
+	border-color: #000000;
+}
+
+.navbar-fixed-top{
+
+	height:60px;
+}
+
+body {
+    background-color: #C0C0C0;
+}
+
+.container {
+	
+	background-color: #FFFFFF;
+	padding-right:30px;
+	padding-left:30px;
+	padding-bottom:10px;
+	padding-top:1px;
+	
+
+}
+
+#recentProjects {
+	
+	background-color: #FFFFFF;
+	padding-right:12px;
+	padding-left:12px;
+	padding-bottom:10px;
+	padding-top:1px;
+	
+
+}
+
+
+.carousel-inner{
+  max-height: 200px !important;
+}
+
+
+

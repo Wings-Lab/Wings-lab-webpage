@@ -1,0 +1,31 @@
+/* Effective stylesheet produced by snapshot save */
+.columnwrapper { font-family: arial; margin: 0px auto; }
+.newsletterwidget h3 a { color: rgb(2, 77, 153); text-decoration: none; }
+.newsletterwidget { background: none repeat scroll 0% 0% rgb(238, 238, 238); }
+.newsletterwidget .widgethead { background: none repeat scroll 0% 0% rgb(238, 238, 238); padding-top: 10px; }
+.newsletterwidget h3 { font: 700 26px/28px arial; margin: 0px; padding: 0px 10px; color: rgb(255, 255, 255); background-position: 251px 5px; }
+.newsletterwidget .widgetbody { background: none repeat scroll 0% 0% rgb(238, 238, 238); margin: 0px; padding: 5px 10px 10px; border-radius: 0px 0px 4px 4px; position: relative; }
+.newsletterwidget .widgetbody .shadowlft { background: url("urn:not-loaded:http://timesofindia.indiatimes.com/photo/22366120.cms") no-repeat scroll -150px 0px transparent; position: absolute; top: 0px; left: -10px; height: 13px; width: 10px; display: none; }
+.newsletterwidget .widgetbody .shadowrt { background: url("urn:not-loaded:http://timesofindia.indiatimes.com/photo/22366120.cms") no-repeat scroll -161px 0px transparent; position: absolute; top: 0px; right: -10px; height: 13px; width: 10px; display: none; }
+.newsletterwidget .useremail { color: rgb(73, 73, 73); width: 180px; }
+.newsletterwidget .checkboxwrapper { font-size: 11px; color: rgb(73, 73, 73); margin: 7px 0px 0px; }
+.newsletterwidget .checkboxwrapper .widgetcheckbox { margin: 0px 3px 0px 0px; position: relative; top: 2px; }
+.newsletterwidget .checkboxwrapper span { font-size: 10px; color: rgb(89, 171, 9); margin-left: 4px; display: block; }
+.newsletterwidget .useremail, .newsletterwidget .useremailblack { border: 0px none; padding: 10px 0px 10px 5px; width: 190px; vertical-align: top; font-size: 14px; margin: 0px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.newsletterwidget .checkboxwrapper.half { float: left; width: 48%; margin-right: 2%; min-height: 28px; }
+.eletterwidgetsubscribe { background: none repeat scroll 0% 0% rgb(254, 206, 2); color: rgb(73, 73, 73); border: 0px none; margin: 0px; text-transform: uppercase; display: inline-block; height: 37px; font-weight: bold; width: 104px; cursor: pointer; padding: 0px; }
+.clearall { clear: both; }
+.newsletterwidget .frequency { display: inline; }
+.newsletterwidgetLT { position: fixed; top: 0px; left: 0px; opacity: 0.7; height: 100%; width: 100%; z-index: 9998; background: none repeat scroll 0% 0% rgb(0, 0, 0); display: none; }
+.newsletterwidgetpop { border-radius: 5px; display: none; left: 32%; position: fixed; top: 150px; width: 500px; z-index: 9999; border: 4px solid rgb(41, 41, 41); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.newsletterwidgetpop .heading { background: none repeat scroll 0% 0% rgb(231, 147, 0); display: block; padding: 7px 10px 10px; font-size: 18px; color: rgb(255, 255, 255); font-weight: 700; }
+.newsletterwidgetpop .clsimg { background: url("urn:not-loaded:http://timesofindia.indiatimes.com/photo/20292614.cms") no-repeat scroll 0px 0px transparent; height: 20px; width: 20px; position: absolute; right: -8px; top: -8px; cursor: pointer; }
+.newsletterwidgetpop .newsletterwidgetlogin { padding: 8px 15px; }
+.newsletterwidgetpop p { font-size: 12px; }
+.newsletterwidgetpop .widgetloginbody { overflow: auto; margin: 12px 0px; }
+.newsletterwidgetpop .widgetloginbody label { float: left; width: 25%; color: rgb(106, 111, 114); font: 700 14px/28px times New Roman; text-indent: 25px; }
+.newsletterwidgetpop .widgetloginbody span { float: right; width: 65%; }
+.newsletterwidgetpop .widgetloginbody span .widgetlogintext { width: 219px; color: rgb(92, 92, 92); height: 30px; padding: 0px 3px; background: url("urn:not-loaded:http://timesofindia.indiatimes.com/photo/20474926.cms") no-repeat scroll 0px 0px transparent; border: 0px none; line-height: 30px; }
+.newsletterwidgetpop .widgetloginfrgpwd { font-size: 11px; }
+.newsletterwidgetpop .widgetloginbtn { background: none repeat scroll 0% 0% rgb(27, 135, 200); width: 85px; height: 28px; font: bold 14px arial; border: 0px none; color: rgb(255, 255, 255); margin: 10px 20px 0px 0px; cursor: pointer; border-radius: 3px; }
+.newsletterwidgetpop .widgetloginbtn.cancel { background: none repeat scroll 0% 0% rgb(61, 62, 64); }

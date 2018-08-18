@@ -1,0 +1,39 @@
+====== CSE 570 Wireless/Mobile Networking (Fall 2014) ======
+
+==== Grading ====
+Occasional quizzes and homeworks (33%), midterm and final exam (33%), term project -- in groups of 2-3, solo project is also acceptable, but not ideal (34%). If significant work is done in project -- specifically developing a useful tool or analysis, you can choose to shift more weight to the project. 
+
+==== Record of class activities and readings ====
+
+== Wireless physical layer ==
+  * Slides used in 1st lecture (9/3) on wireless physical layer[[https://www.dropbox.com/s/kn9wgmghuiso5q7/phy-layer-2up.pdf?dl=0|External Link]]
+  * Text used for wireless physical layer: COMMUNICATION SYSTEMS ENGINEERING, Proakis and Salehi, Prentice Hall, 2002 Ed. (see sec 7.6 for bit error rate analysis for binary PAM etc.)
+  * Nitin Vaidya's notes. See Chapter 2 for wireless physical layer. [[https://www.dropbox.com/s/zx0jj4k0qqad1jq/Notes-chaps-1-4-Nitin-Vaidya-Sp10.pdf?dl=0|External Link]]
+  * Lecture on (9/8): time domain and freq. domain representation, basic concepts of Fourier Series and Transforms, Shannon's capacity law, concept of dB, dBm. Difference between capacity, bit rate, throughput, bandwidth. Read Vaidya's notes - Chapter 2. 
+  * Lecture on (9/9):  [[https://www.dropbox.com/s/q9p3gammpdh47xd/BER-vs-SNR-802.11.pptx?dl=0|BER vs. SINR for 802.11.]] [[http://en.wikipedia.org/wiki/Friis_transmission_equation|Friis path loss equation.]]  [[http://www.distributed-wireless.com/calculators/pathloss_RSSI.html|Path loss calculator.]] Also, Read Vaidya's notes - Chapter 2, everything regarding path loss.  [[https://www.dropbox.com/s/953ap2lyvam5uoe/path-loss-model-survey.pdf?dl=0|Survey paper on wireless path loss and coverage prediction.]] Read at least Sec IIIA, Sec IVC and skim through the rest. 
+
+== Localization of wireless devices ==
+  * Lecture on (9/15): Localization. Two basic methods -- based on ranging using signal strength, timing, etc., and based on finger printing. [[https://www.dropbox.com/s/ysdbb5focwa0lru/lamarca-location-awareness-tutorial.pdf?dl=1|Location Systems tutorial paper by A. Lamarca and E. De Lara.]] At the minimum, read Sec 2.3, 2.4 for GPS, Sec 4.1, 4.2 and 5.1, 5.2, 5.4 for WiFi and cellular networks. 
+
+== White space spectrum and secondary operation ==
+  * Lecture on (9/17): TV White Space. General idea of TVWS, concept of protection region and spectrum databases. [[https://www.dropbox.com/s/o5gl8g63os49auv/TVWS-handout.pdf?dl=1|Slides.]] Read this paper:[[http://arxiv.org/abs/1304.1785|Farzad Hessar, Sumit Roy: Capacity Considerations for Secondary Networks in TV White Space.
+]] Sec 1,2,3,4 and Appendix A.
+  * [[https://www.dropbox.com/s/6tsixxg0dt4l4b4/quiz%201%20sol.pdf?dl=1|Quiz 1 solutions.]]
+
+== Medium access control protocols == 
+  * Lecture on (9/22): Medium access control protocol. Scheduled and random access protocols. Aloha. Carrier-sensing. Read Vaidya's notes above - Chapter 3. 
+  * Lecture on 9/24: Discussion on project topics. Medium access control protocols to continue from next class. 
+
+
+==== Term Project ====
+
+== Ground Rules ==
+
+Typically 2-3 students per project. A proportionately more complete work is expected from a 3 students group than 2. (You can also go solo if you like; but it is easier to work in a group as projects could be involved and also it is easier for us to manage projects if there are fewer of them.)
+
+Several ideas are provided in a following ideas document. This document will be evolving within the next week. You are not limited to these ideas. But these are the ideas we have some concrete interest in and so they are fairly well-defined and also novel. 
+
+Your eventual deliverable is a report plus necessary code/prototype system as appropriate. 
+
+== Project idea documents ==
+  * [[https://docs.google.com/a/cs.stonybrook.edu/document/d/1Gpoc3GQNaI4wZflgzWBBngWrjXauWXG48QNznNbO7QU/edit?usp=sharing|Project ideas document.]] Note: you need to be logged in cs.stonybrook.edu Google app domain (not stonybrook.edu) to access the document. 

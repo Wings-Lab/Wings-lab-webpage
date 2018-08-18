@@ -1,0 +1,45 @@
+====== Who has what? ======
+This should make it helpful to keep track of stuff. Please try to keep it as updated as possible.
+==== Desktop Computers ====
+
+||  Name / Identifier     || IP (if up) || Used by ||
+|| Smart 1||  xyz  || Ayon ||
+|| Smart 2||  xyz  || Free ||
+
+==== Laptops ====
+
+||  Name / Identifier   || Used by ||
+|| Old Dell || Ayon ||
+|| Random Lenovo || Free ||
+
+==== Smartphones / Tablet ====
+||  Name / Identifier   || Used by ||
+|| Nexus 4 (mac-id) || Free ||
+|| Nexus 5 (mac-id) || Ayon ||
+|| Chinese Tablet(mac-id) || Free ||
+|| Sprint Phone || ? ||
+
+==== GPS Pucks ====
+|| 4 are || Free ||
+|| 1 being used by || Ayon ||
+
+==== SDRs ====
+
+||  Name / Identifier   || Used by ||
+|| USRP-2 (white) || Ayon ||
+|| USRP-2 (white) || Free||
+|| USRP-2 (white) || Free||
+|| USRP-2 (white) || Free||
+|| USRP-2 (black) || Free||
+|| USRP-2 (black) || Free||
+|| USRP-2 (black) || Free||
+|| USRP-2 (black) || Free||
+|| USRP-2 (black) || Free||
+|| USRP-2 (black) || Free||
+|| Dongles (num) || Ayon ||
+
+==== Misc. Instruments ====
+||  Name / Identifier   || Used by ||
+|| OpenMoko phone || Free ||
+|| Motorola phone || Ayon ||
+

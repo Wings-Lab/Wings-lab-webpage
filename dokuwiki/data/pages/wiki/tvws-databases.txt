@@ -1,0 +1,38 @@
+====== Spectrum Sensing with Mobile SDRs ======
+
+==== Things to focus on ====
+  * Efficient radio environment mapping
+    * Explore interpolation techniques
+    * How much labeled data reuired for interpolation?
+    * Information theoretic measure for labeled data's contribution to interpolation errors
+
+  * Reducing deployment cost for sensors
+    * Cheap sensors
+    * Handling noisy sensor data
+    * Strategic deployment
+    * Minimization of driving effort
+
+  * Energy Efficiency
+    * Studying energy profiles for various platforms, formulating any empirical 
+    * How efficient scheduling can improve energy eficiency
+ 
+  * Scanning Strategies
+    * Limited sampling rate, making best use of it.(also look Dina Katabi's work)
+    * Freq vs. Geographic coverage
+    
+==== Existing Mobile SDR platforms ====
+
+|| SDR || Sensing Range || Bandwidth || ADC/DAC || Price || Literature ||
+|| [[https://www.ettus.com/product/details/UB200-KIT|USRP B210]] || 70 MHz – 6 GHz || 56 MHz || 12 bit || 675$ || ''to be updated'' ||
+|| [[http://nuand.com/|BladeRF]] || 300 MHz - 3.8 GHz || 28 MHz || 16 bit DAC || 420/650$ (difference only in FPGA) ||  ||
+|| [[https://greatscottgadgets.com/hackrf/|HackRF]] || 30 MHz - 6 GHz || 20 MHz || 8 bit IQ || 300$ pre-order || ||
+|| [[http://web.eecs.umich.edu/~prabal/pubs/papers/kuo12sdr.pdf|Prabal's MicroSDR]] || || || || sub-150|| [[http://web.eecs.umich.edu/~prabal/pubs/papers/kuo12sdr.pdf|Sensys'12]] ||
+|| [[http://sdr.osmocom.org/trac/wiki/rtl-sdr|RTL-2832]] || 50 MHz - 2.2 GHz || 2.4 MHz || 8 bit IQ || 20$ || Us, UCSB group ||
+
+==== Reading list ====
+  - Heather Zhang's HotWireless'14 [[http://www.cs.ucsb.edu/~anika/hotwireless2014.pdf|paper]]
+  - [[http://web.eecs.umich.edu/~prabal/pubs/papers/kuo12sdr.pdf|Prabal's MicroSDR]] paper, Sensys'12.
+  - Quadrature Sampling
+  - Dynamic Range
+  - Resolution Bandwith
+  - FCC Drafts on TVWS

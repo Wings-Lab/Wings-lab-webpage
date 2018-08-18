@@ -1,0 +1,58 @@
+/* Effective stylesheet produced by snapshot save */
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: url("urn:not-loaded:http://toi.cricbuzz.com/scripts/fonts/robotocondensed-bold.eot?#iefix") format("embedded-opentype"), url("robotocondensed-bold_woff") format("woff"), url("urn:not-loaded:http://toi.cricbuzz.com/scripts/fonts/robotocondensed-bold.ttf") format("truetype"), url("urn:not-loaded:http://toi.cricbuzz.com/scripts/fonts/robotocondensed-bold.svg#roboto_condensedbold") format("svg");
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url("urn:not-loaded:http://toi.cricbuzz.com/scripts/fonts/robotocondensed-regular.eot?#iefix") format("embedded-opentype"), url("robotocondensed-regular_woff") format("woff"), url("urn:not-loaded:http://toi.cricbuzz.com/scripts/fonts/robotocondensed-regular.ttf") format("truetype"), url("urn:not-loaded:http://toi.cricbuzz.com/scripts/fonts/robotocondensed-regular.svg#roboto_condensedregular") format("svg");
+}
+img { border: 0px none; }
+#ScoreWIdjetcarousel { position: relative; z-index: 99 ! important; display: block ! important; }
+#ScoreWIdjetcarousel { position: relative; z-index: 99 ! important; display: block ! important; }
+.jcarousel-skin-tango-Score-Widjet_02 { background: none repeat scroll 0% 0% rgb(86, 86, 86); }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-container { background: none repeat scroll 0% 0% rgb(86, 86, 86); width: 300px; height: 110px; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-clip { overflow: hidden; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-clip-horizontal { width: 250px; height: 110px; margin: 0px 0px 0px 25px; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-item { width: 250px; height: 110px; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-item img { margin-bottom: 0px; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-item-horizontal { margin-left: 0px; margin-right: 25px; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-next-horizontal { position: absolute; top: 0px; right: 0px; width: 25px; height: 110px; cursor: pointer; background: url("go-cricket-logo-sprite.png") no-repeat scroll -275px -1104px transparent; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-next-horizontal:hover, .jcarousel-skin-tango-Score-Widjet_02 .jcarousel-next-horizontal:focus { background-position: -275px -1104px; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-next-horizontal:active { background-position: -275px -1104px; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-prev-horizontal { position: absolute; top: 0px; left: 0px; width: 25px; height: 110px; cursor: pointer; background: url("go-cricket-logo-sprite.png") no-repeat scroll 0px -1104px transparent; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-prev-horizontal:hover, .jcarousel-skin-tango-Score-Widjet_02 .jcarousel-prev-horizontal:focus { background-position: 0px -1104px; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-prev-horizontal:active { background-position: 0px -1104px; }
+.jcarousel-skin-tango-Score-Widjet_02 .jcarousel-prev-disabled-horizontal, .jcarousel-skin-tango-Score-Widjet_02 .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-tango-Score-Widjet_02 .jcarousel-prev-disabled-horizontal:focus, .jcarousel-skin-tango-Score-Widjet_02 .jcarousel-prev-disabled-horizontal:active { cursor: default; background-position: -62px -1104px; }
+body { font: 400 12px/14px "Roboto Condensed",Arial,Helvetica,sans-serif; margin: 0px; padding: 0px; }
+.lc { float: left; }
+.rc { float: right; }
+.blk { display: block; }
+.blk:after, .clr:after, .ColumnsBlock figure:after, .Mcontent:after, .NewsList ul li:after, .Newsfix ul li:after, .newstop ul li:after, .NewsBlock:after { content: " "; display: block; height: 0px; clear: both; visibility: hidden; overflow: hidden; }
+.ScoreWidjet {  }
+.ScoreBlock { margin: 5px 0px 0px; z-index: 99; position: relative; }
+.rcblk { display: block; font-size: 11px; color: rgb(255, 255, 255); text-transform: uppercase; margin-right: 1px; width: 185px; height: 16px; overflow: hidden; margin-top: 3px; }
+.greenIcon { background: url("go-cricket-logo-sprite.png") no-repeat scroll 0px -1226px transparent; width: 14px; height: 7px; display: block; margin-top: 7px; color: rgb(255, 255, 255); font-size: 9px; letter-spacing: 1px; line-height: 8px; padding-left: 20px; text-transform: uppercase; }
+.redIcon { background: url("go-cricket-logo-sprite.png") no-repeat scroll -70px -1226px transparent; width: 14px; height: 7px; display: block; margin-top: 7px; color: rgb(255, 255, 255); font-size: 9px; letter-spacing: 1px; line-height: 8px; padding-left: 20px; text-transform: uppercase; }
+.blockBottom { font: bold 11px/10px Tahoma,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); height: 18px; }
+.blackBlock { background: none repeat scroll 0% 0% rgb(54, 54, 54); width: 250px; height: 51px; text-align: left; margin: 0px 0px 3px; overflow: hidden; }
+.overBlock { font: 700 13px/18px "Roboto Condensed",Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); float: left; text-transform: uppercase; width: 230px; margin: 7px 0px 0px 10px; }
+.overBlock span { font: 400 12px/14px "Roboto Condensed",Arial,Helvetica,sans-serif; text-transform: none; }
+.ScoreWidjet a { text-decoration: none ! important; }
+.ScoreWidjet { z-index: 17; position: relative; }
+.stkscore { width: 300px; margin: 0px auto; position: relative; }
+.scoreteam { width: 94px; }
+.scoreteamB { width: 94px; text-align: right; }
+.OversTestMatch { margin: 10px 0px 0px; background: none repeat scroll 0% 0% rgb(0, 0, 0); color: rgb(255, 255, 255); padding: 0px 3px 2px; font-size: 10px ! important; line-height: 12px ! important; }
+.ScoreBScore { color: rgb(139, 139, 139); font-size: 12px ! important; }
+.ScoreTScore { font-size: 17px ! important; margin-bottom: 2px; }
+.teamnimg { margin-right: 5px; text-align: center ! important; line-height: 12px ! important; }
+.teamnimgB { margin-left: 5px; text-align: center ! important; line-height: 12px ! important; }
+.ScoreTeamn { display: block; }
+.ScoreTScore { display: block; }
+.currentMatch { color: yellow; }
+#widgetlogo { position: absolute; right: 25px; top: 2px; z-index: 10; }

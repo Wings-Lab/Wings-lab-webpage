@@ -1,0 +1,11 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1407428170;s:8:"modified";i:1407737068;}s:7:"creator";s:16:"Ayon Chakraborty";s:4:"user";s:8:"ayonchak";s:11:"last_change";a:7:{s:4:"date";i:1407737068;s:2:"ip";s:15:"130.245.200.173";s:4:"type";s:1:"E";s:2:"id";s:12:"all-projects";s:4:"user";s:8:"ayonchak";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:8:"ayonchak";s:16:"Ayon Chakraborty";}s:5:"title";s:24:"List of Current Projects";s:11:"description";a:2:{s:15:"tableofcontents";a:5:{i:0;a:4:{s:3:"hid";s:26:"tv_whitespace_related_work";s:5:"title";s:29:"1. TV Whitespace related work";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:12:"localization";s:5:"title";s:15:"2. Localization";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:2;a:4:{s:3:"hid";s:27:"mvno_performance_comparison";s:5:"title";s:30:"3. MVNO Performance comparison";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:3;a:4:{s:3:"hid";s:16:"add_your_project";s:5:"title";s:16:"Add your project";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:4;a:4:{s:3:"hid";s:17:"add_your_project1";s:5:"title";s:16:"Add your project";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:255:"1. TV Whitespace related work
+
+ Project page: Here, Team Members: Ayon and Samir
+
+2. Localization
+
+ Project page: Here, Team Members: Ayon, Luis, Samir
+
+3. MVNO Performance comparison
+
+ Project page: Here, Team Members: Fatima, Ayon, Vyas, Phillipa, Samir";}s:8:"relation";a:2:{s:10:"references";a:4:{s:14:"tvws-databases";b:1;s:12:"cellular-loc";b:1;s:4:"mvno";b:1;s:11:"conf-target";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1407428170;s:8:"modified";i:1407737068;}s:7:"creator";s:16:"Ayon Chakraborty";s:4:"user";s:8:"ayonchak";s:11:"last_change";a:7:{s:4:"date";i:1407737068;s:2:"ip";s:15:"130.245.200.173";s:4:"type";s:1:"E";s:2:"id";s:12:"all-projects";s:4:"user";s:8:"ayonchak";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:8:"ayonchak";s:16:"Ayon Chakraborty";}}}

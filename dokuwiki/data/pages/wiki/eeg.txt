@@ -1,0 +1,23 @@
+====== Opportunistic advertisement insertion in online media using neuro-sensors and gaze tracking ======
+
+===== Background / Motivation / Problem =====
+  * Current day advertisement insertion is more based on passive techniques (user's history, media content). e.g., use predetrmined ad slots. (Ref ?)
+    * Doesn't depend on the user's current state / activity. (Ref ?)
+    * Doesn't guarantee whether user was at all expecting to see an advertisement. (Ref ?)
+    * Might have distracted the user as well. Impact both on the advertiser as well as the content provider! (Ref ?)
+    * Advertiser's ROI for ads might systematically decrease for wrong placement of ads. (Ref ?)
+
+  * Scope / Applicability / Use cases
+    * Online Gaming
+    * Streaming Video e.g., Vimeo, Youtube etc. 
+    * others: judiciously use bandwidth
+
+===== Hardware =====
+
+===== Experiment Plan =====
+
+===== Literature Review =====
+
+
+===== Dumps =====
+  * Expression Recognition (openCV) https://github.com/luca-m/emotime

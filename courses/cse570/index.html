@@ -1,0 +1,69 @@
+<html>
+<title>CSE 570 Adhoc </title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20509414-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<body>
+<div align="justify"><strong>This document refers to the C source code '<a href="adhoc.c">adhoc.c</a>'. </strong><br />
+<strong> </strong><br />
+<strong> <font color="#800000">NOTES:</font></strong><br />
+This is a skeleton application meant for exchanging data in between nodes in an adhoc network and logging them into files. The following steps <br />
+&nbsp;describes how to run the code, with necessary prerequisites.<br />
+<br />
+1. First of all, you need a Linux machine equipped with a wireless interface. In the console, type &quot;iwlist&quot; and check whether the command is&nbsp; <br />
+&nbsp;&nbsp;&nbsp; supported. If not, install <font color="#000080">wireless-tools</font> in your machine by, &quot;sudo apt-get install wireless-tools&quot; and proceed.&nbsp; After you are done, recheck &quot;iwlist&quot; <br />
+&nbsp;&nbsp;&nbsp; command. The other handy tools available in the wireless-tools package are at<span style="background-color: rgb(255, 255, 255);">,<font color="#000080"><em> http://en.wikipedia.org/wiki/Wireless_tools_for_Linux.</em></font></span><br />
+<br />
+&nbsp;&quot;<font color="#000080"><em>$&gt; iwlist interface scanning</em></font>&quot; will scan the network interface and give you the list of available access points that can be sensed. This along with <br />
+&nbsp;&nbsp; the signal strength information gives you the approximate location of your node (laptop).<br />
+<br />
+2. Now we will set up the ad-hoc network.<br />
+&nbsp;&nbsp;&nbsp; a) Go to Network Connections -&gt; Edit connections -&gt; Wireless<br />
+&nbsp;&nbsp;&nbsp; b) 'Add' a connection <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em> Connection Name and SSID:</em> CSE570<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&nbsp; Mode: </em>Ad-hoc (leave the rest)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em> Wireless security: </em>None<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&nbsp;&nbsp; IPv4 Settings: </em>Shared to other computers<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&nbsp;&nbsp;&nbsp; Ignore IPv6 settings</em> <br />
+&nbsp;&nbsp;&nbsp; c) Having set up the ad-hoc network, try to connect to it. Go to the Network connections and connect to the network CSE570. If you cannot&nbsp; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; see it in the list, see&nbsp; 'connect to hidden wireless networks'. Make sure you successfully connect to it. Now, test it on your peer's machine.&nbsp;&nbsp;&nbsp; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Once you set up the network CSE570, you should be able to view that ad-hoc network from your peer's machine. Connect to it. Note once you <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; set the network interface to ad-hoc mode you cannot connect to the internet :(<br />
+&nbsp;&nbsp; d) Check your network addresses. Do a ifconfig, and check out your own ip and the broadcast address. Broadcast address means if anybody <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *who is connected to the network CSE570* sends out a packet to the bcast ip, every node in that network hears it. You require the bcast <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; address for this application.<br />
+<br />
+3. Now we have the system ready. Set up a network and run the application.<br />
+<br />
+&nbsp;&nbsp;<strong>&nbsp;<font color="#339966"> [A]</font><font color="#003366">-----------</font><font color="#FF6600">[B]</font><font color="#003366">---------------------------------</font><font color="#993366">[C]</font><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <font color="#003366">&nbsp;&nbsp; |<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; |</font><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <font color="#FF00FF">[D]</font><font color="#003366">-----------------</font><font color="#666699">[E]</font></strong><br />
+<br />
+&nbsp;&nbsp;&nbsp; The above shows a sample instance of the ad-hoc network you would be running.&nbsp; Suppose B sets up the network and the others connect to it. <br />
+&nbsp;&nbsp;&nbsp; For all nodes,A,B,C,D,E&nbsp; the broadcast address would be the same. Compile and run the source code provided to you. If your wireless interface <br />
+&nbsp;&nbsp;&nbsp; is known as wlan, you should run the code like the following,&nbsp;<font color="#333399"> <em>$ ./a.out&nbsp; 10.42.43.255 wlan</em></font>. Preferably you should be the root while running the <br />
+&nbsp;&nbsp;&nbsp; application.<br />
+&nbsp; <br />
+&nbsp;&nbsp; Three files would be created in the local directory in the local directory from where you are running the application. Check out the source code for <br />
+&nbsp;&nbsp;&nbsp; more details.<br />
+<br />
+@ If you have doubts regarding the setup or about running the application, you can drop an email at <font color="#003366">
+ jucse.ayon@gmail.com</font><br />
+@date: Aug 15,2012<br />
+<br/>
+<a href="http://www.wings.cs.sunysb.edu">WINGS Lab</a>
+</div>
+</body>
+<html>

@@ -1,0 +1,6 @@
+====== Open Issues ======
+  * Network Problems. Look lab network configuration [[lab-network|here]].
+  * Electrical Issues.
+  * Desk Assignment.
+  * Cabinets / Locks-Keys.
+  * To buy something (switch/hardware etc.) 

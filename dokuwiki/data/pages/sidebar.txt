@@ -1,0 +1,27 @@
+{{ wiki:logo2.png?nolink&170 |}} 
+
+====== Courses ======
+  * [[cse570 | CSE 570 Wireless/Mobile Networking (Fall 2014)]] 
+  * [[cse370 | CSE 370 (Spring 2014)]] 
+ 
+====== Research ======
+  * [[all-projects| All Projects]] 
+    * [[tvws-databases|Whitespace]]
+    * [[cellular-loc|Localization]]
+    * [[mobileweb|Cellular QoE]]
+    * [[eeg|EEG Stuff]]
+  * [[all-publications| All Publications]] 
+
+
+====== Organizational ======
+  * [[hardware-location| Who has What?]] 
+  * [[misc-issues|Open Issues]]
+
+
+====== People ======
+  * [[people-contact| Contacts]] 
+
+
+  * Lab passcode is ******. 
+  * Lab phone number is FIXME.
+  * Room Numbers: 2314, 2315

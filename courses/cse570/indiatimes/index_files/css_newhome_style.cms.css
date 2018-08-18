@@ -1,0 +1,15 @@
+/* Effective stylesheet produced by snapshot save */
+@font-face {
+  font-family: "googlefont bold";
+  src: url("urn:not-loaded:http://navbharattimes.indiatimes.com/fonts/NotoSansDevanagari-Bold.eot?#iefix") format("eot"), url("urn:not-loaded:http://navbharattimes.indiatimes.com/fonts/NotoSansDevanagari-Bold.woff") format("woff"), url("urn:not-loaded:http://navbharattimes.indiatimes.com/fonts/NotoSansDevanagari-Bold.ttf") format("truetype"), url("urn:not-loaded:http://navbharattimes.indiatimes.com/fonts/NotoSansDevanagari-Bold.svg#NotoSansDevanagari-Bold") format("svg");
+}
+@font-face {
+  font-family: "googlefont";
+  src: url("urn:not-loaded:http://navbharattimes.indiatimes.com/fonts/NotoSansDevanagari-Regular.eot?#iefix") format("eot"), url("NotoSansDevanagari-Regular_woff") format("woff"), url("urn:not-loaded:http://navbharattimes.indiatimes.com/fonts/NotoSansDevanagari-Regular.ttf") format("truetype"), url("urn:not-loaded:http://navbharattimes.indiatimes.com/fonts/NotoSansDevanagari-Regular.svg#NotoSansDevanagari-Regular") format("svg");
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, div, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed { margin: 0px; padding: 0px; border: 0px none; font-size: 100%; font-family: "googlefont",Arial; vertical-align: baseline; font-weight: normal; }
+a { color: rgb(4, 78, 151); text-decoration: none; }
+a, input { outline: 0px none; }
+body { background: url("urn:not-loaded:http://navbharattimes.indiatimes.com/photo/27975912.cms") repeat scroll 0% 0% rgb(229, 229, 229); }
+.nbtsprite2 { background-image: url("urn:not-loaded:http://navbharattimes.indiatimes.com/photo/46214343.cms"); background-repeat: no-repeat; }
+.homePicgallery_block { background: none repeat scroll 0% 0% rgb(242, 242, 242); border: 1px solid rgb(226, 226, 226); width: 300px; padding: 0px 0px 24px; }

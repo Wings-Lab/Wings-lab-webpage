@@ -1,0 +1,99 @@
+====== Who has what? ======
+This should make it helpful to keep track of stuff. Please try to keep it as updated as possible.
+==== Desktop Computers ====
+
+||  Name / Identifier    || Used by || Location || Date (From) ||
+|| Smart #1 (Dell Optiplex 780)  || Ayon || WINGS || Summer'14 ||
+|| Smart #2  (Dell Optiplex 780) || Ayon || WINGS || Summer'15 ||
+|| Smart #3 (Dell Optiplex 780) || Vasu|| WINGS || ||
+|| Smart #4 (Dell Optiplex 780) || Shaifur|| WINGS || Summer'14 ||
+|| Smart #5  (Dell Optiplex 780) || <Free> || WINGS || December'14 ||
+|| Smart #6 (Dell Optiplex 780)|| Fatima || WINGS || Fall'14 ||
+|| Smart #7 (Dell Optiplex 780)|| Fatima || WINGS || Fall'14 ||
+|| Smart #8 (Dell Optiplex 780)|| Jihoon || CEWIT || ||
+|| Smart #9 (Dell Optiplex 780)|| Jihoon || CEWIT || ||
+|| Smart #10 (Dell Optiplex 780)|| Jihoon || CEWIT || ||
+|| Smart #11 (Dell Optiplex 780)|| Jihoon|| CEWIT|| ||
+|| Smart #12 (Dell Optiplex 780)|| Jihoon || CEWIT|| ||
+|| HP Server   || <Free> || WINGS || Spring'14||
+|| Dell Precision 3400   || Vasu || WINGS || Fall'14 ||
+|| Intel NUC 1 || Jihoon || WINGS || Spring'15 ||
+|| Intel NUC 2 || Sohee(?) || ?? || ||
+|| Intel NUC 3 || Vasu || WINGS || ||
+|| Intel NUC 4 || Vasu || WINGS || ||
+|| Dell/POWEREDGE 2950 (ebay server) || Jihoon || CEWIT || Spring'15 ||
+|| Dell Poweredge R720 (Vyas's) || || Wings rack ||  ||
+|| Dell Powerdge T20 (web server)|| || Wings rack || Summer'14 ||
+|| Dell Powerdge 2800 (old server)|| Non operational|| Wings rack || ||
+|| Dell Vostro 400 || needs repair??|| wings || ||
+|| Dell Vostro 400 || needs repair??|| wings || ||
+|| Laser #1 (Dell Optiplex 3010) || Jihoon || CEWIT || ||
+|| Laser #2 (Dell Optiplex 3010) || Jihoon || CEWIT || ||
+==== Laptops ====
+
+||  Name / Identifier   || Used by || Location || Date (From) ||
+|| Dell Inspiron 15 || <Free> || WINGS || April'15 ||
+|| Lenovo || Samir (Udit's work)||  || Summer'15 ||
+|| Lenovo || Vasu || WINGS|| Fall 15 ||
+|| Acer Aspire E1-572-6870 #1 || Ayon || WINGS || Fall'14 ||
+|| Acer Aspire E1-572-6870 #2 || Fatima || WINGS || Fall'14 ||
+|| Old Dells black (2) || <Free> || WINGS || DISCARD ||
+|| Old Dells grey w/ mini PCIe (3) || <Free> || WINGS || DISCARD ||
+
+==== Smartphones / Tablet ====
+||  Name / Identifier   || Used by || Location || Date (From) ||
+|| Nexus 4 #1 || Samir || || Fall'15 ||
+|| Nexus 4 #2 || Alpit  || || Fall'15 ||
+|| Nexus 4 #3 || Vasu    ||  || Fall 15 ||
+|| Nexus 4 #4 || Jihoon(?)    ||  || Spring'15 ||
+|| Nexus 4 #5 || Fatima    || || Fall'14 ||
+|| Nexus 5 || Ayon|| || Spring'15 ||
+|| Sprint Phone || Fatima || WINGS || Fall'14 ||
+|| iPhone4 || Samir || Office || ||
+|| Samsung Galaxy S4 (white) || Vasu(?)|| || Summer'15 ||
+|| Samsung Galaxy S5 (black) || Fatima || || Spring'15 ||
+
+==== SDRs ====
+||  Name / Identifier   || Used by || Location ||
+||                      ||         ||       ||
+|| USRPB210 || Vasu || WINGS ||
+|| USRPB210 || Ayon || WINGS ||
+|| USRPB200 || Vasu || WINGS ||
+|| USRP2 N210 White (4) || 2 with Jihoon at CEWIT, 2 at Rob Johnson's lab || ||
+|| USRP1 Black (5) || 4 with Jihoon, 1 with Ayon|| CEWIT ||
+|| BladeRF (2) || Jihoon || BROKEN!! ||
+|| THINK RF || Jihoon || CEWIT ||
+|| RTL-SDR Dongles (5) || Ayon || WINGS ||
+
+
+==== Other Boards ====
+||  Name / Identifier    || Used by ||
+|| Raspberry Pi - 1|| Free ||
+|| Raspberry Pi - 2|| Free ||
+|| Beagle Bone - 1 || Free ||
+|| Beagle Bone - 2 || Free ||
+
+==== Wireless Cards ====
+|| XR7  || 8 || Free || WINGS ||
+|| WiFi || many || Free || WINGS ||
+|| PCI to mini-PCI|| 4-5 || Free || WINGS ||
+|| Antenna || Many || Free  || WINGS ||
+
+ 
+==== Accessories (mostly Devesh left) ====
+|| Monsoon Power Meter || 1 || Aruna - Yi || WINGS ||
+|| USB Power monitor || 1 || Ayon || WINGS ||
+|| GPS Pucks || 2 || Ayon || WINGS ||
+|| Motorola GSM phones || 1 || Ayon || WINGS ||
+|| Ericsson GSM Modem || 2 || Ayon || WINGS ||
+
+==== SIM Cards ====
+||  Name / Identifier    || Used by ||
+|| ATT || Abbas || 
+|| H20 Wireless || Abbas ||
+|| Black Wireless || Abbas ||
+|| Net10 Wireless || Abbas ||
+|| T-Mobile || ? ||
+|| Straight Talk || Abbas ||
+|| SIMPLE Mobile|| Abbas ||
+|| MetroPCS || Abbas ||

@@ -1,0 +1,75 @@
+======= CSE 370 Wireless/Mobile Networking (Spring 2015) =======
+
+=== Syllabus ===
+  * Wireless physical layer - basic concepts only regarding wireless channel, frequency, spectrum, bandwidth, signal propagation, time and freq domain representation, power/energy, dB notation, wireless channel models, path loss models, concepts of SNR and SINR, bit error rate and their relationships. 
+  * Wireless link layer - random access protocols, Aloha and CSMA, analysis, IEEE 802.11 standard. 
+  * Routing layer - conceptual issues in routing in wireless/mobile networks, ad hoc networks routing, geograhic routing, Mobile IP
+  * Transport layer -- TCP in wireless/mobile networks
+  * Cellular networks and frequency management
+  * Sensor networks
+  * Localization in wireless networks
+
+
+==== Prerequisite ====
+A networking class at the level of CSE310 and a probability/stat class similar to AMS310. If you do not have the pre-req be prepared to work extra hard to pick up the background materials. 
+
+[[http://www.pearsonhighered.com/educator/product/Computer-Networking-A-TopDown-Approach-6E/9780132856201.page|Kurose and Ross's textbook on networking]] is a very good book to have handy. Even a 5 year old edition is fine for our purpose. This is a very popular textbook -- widely available. 
+
+==== Textbook ====
+Mobile Communications by Jochen Schiller (Addison-Wesley) is a good book to have. We will partially follow this book. Rest will be dependent on instructor's provided notes/papers. 
+
+==== Instructor Office Hours ====
+Tu-Th 2:30-4:00p. Or, send an email for appt. There is no TA for this class. 
+
+----
+
+==== Grading ====
+Homeworks (about 4-5 problem sets, some will require programming/tool building) about 50%, Exams (midterm + Finals + a few quizzes) about 50%.
+
+----
+
+==== Record of class activities and readings ====
+== Introductions ==
+  * [[https://drive.google.com/file/d/0B5_bVEzxY25TZXVLT0o3MVN2aXM/view?usp=sharing|Lecture slides ]]
+
+== Wireless physical layer ==
+  * [[https://drive.google.com/file/d/0B5_bVEzxY25Tc3A3TzhxSF9GUFk/view?usp=sharing|Lecture slides ]]
+  * Reading: Chap 2 of [[https://drive.google.com/file/d/0B5_bVEzxY25TWnlDUDB1WmlPaFE/view?usp=sharing|these notes]] by Nitin Vaidya, UIUC. 
+  * [[https://drive.google.com/file/d/0B5_bVEzxY25TdzFXQ3hVTUxwbTg/view?usp=sharing|Path loss examples.]]
+
+== MAC Layer ==
+  * [[https://drive.google.com/open?id=0B5_bVEzxY25TdHNTQmo4LTh5dHM&authuser=0|Lecture slides, Part 1]]
+  * Reading Chap 3 of Nitin Vaidya's notes. 
+  * [[https://drive.google.com/file/d/0B5_bVEzxY25TMWNfU3o1UFN4QzQ/view?usp=sharing| Lecture slides, Part 2]]
+
+== Routing Layer ==
+  * Mobile IP. [[https://drive.google.com/file/d/0B5_bVEzxY25Tbi1NVWlOZ2JrTlk/view?usp=sharing|Lecture Slides]]. Readings - Schiller text Sec 8.1 
+  * Make sure you have covered background materials: Network layer services - concepts of forwarding and routing; Basic concept of a router; IP addressing and IP forwarding; IP datagram format; Basic idea of protocols such as DHCP, DNS; Routing algorithms - link state and distance vector (e.g., read Chap 4 of Kurose-Ross)
+  * [[https://drive.google.com/file/d/0B5_bVEzxY25TbmdTQS1ma3JaTjg/view?usp=sharing|Lecture slides on ad hoc network preliminaries.]]
+  * [[https://drive.google.com/file/d/0B5_bVEzxY25TZWRVeDloWVYxNWs/view?usp=sharing|Lecture slides on ad hoc network routing protocols]] - only partially used. [[https://drive.google.com/file/d/0B5_bVEzxY25TMWJ3WlpwLXg3bzQ/view?usp=sharing| Original DSR paper: David B. Johnson and David A. Maltz. Dynamic Source Routing in Ad Hoc Wireless Networks. In Mobile Computing, edited by Tomasz Imielinski and Hank Korth, Chapter 5, pages 153-181, Kluwer Academic Publishers, 1996.]] [[http://www.cs.ucsb.edu/~ebelding/txt/aodv.ps| Original AODV paper.]] Also, read Schiller Sec 8.3, specially, 8.3.3.
+  * Geographic (location-based) routing. [[https://drive.google.com/file/d/0B5_bVEzxY25TZk94a3kwa3lEUE0/view?usp=sharing| Lecture slides]]. Some notes are [[https://drive.google.com/file/d/0B5_bVEzxY25TT0RQWWJTMGYyOG8/view?usp=sharing|here]]. 
+  
+
+== Localization ==
+  * Two basic methods covered – based on ranging using signal strength, timing, etc., and based on finger printing.
+  * [[https://www.dropbox.com/s/ysdbb5focwa0lru/lamarca-location-awareness-tutorial.pdf?dl=1| Location Systems tutorial paper by A. Lamarca and E. De Lara.]] At the minimum, read Sec 2.3, 2.4 for GPS, Sec 4.1, 4.2 and 5.1, 5.2, 5.4 for WiFi and cellular networks.
+  * Slides used in localization lectures. [[https://drive.google.com/file/d/0B5_bVEzxY25TYW5PTUQ0Ql82YTg/view?usp=sharing|Trilateration]]. [[https://drive.google.com/file/d/0B5_bVEzxY25TNmRyUl9kazl4bjg/view?usp=sharing|Fingerprinting]]. 
+  * Also, read carefully the description of HW4. This describes a fingerprinting-based method. 
+
+== TCP over Wireless ==
+  * Make sure you have have a general idea how TCP works (TCP connection management, segment structure, reliable data transfer, principles of congestion control, flow control, show start, congestion avoidance, fast retransmit, fast recovery). The review materials are available in Sec 3.1,3.5,3.7 of Kurose-Ross textbook - ignore fairness issues. 
+  * [[https://drive.google.com/file/d/0B5_bVEzxY25TbEp1T3E1eGNzaXc/view?usp=sharing|Lectures slides]] (first 14 pages, i.e., first 28 slides). We really covered three approaches - Split-connection, Snoop and ELN. 
+  * [[https://drive.google.com/file/d/0B5_bVEzxY25TUzZyZGdQb0dzVFk/view?usp=sharing| Notes by Nitin Vaidya]] - Read sections 9.2 (TPC background), 9.3,9.4 (general TCP over wireless issues), 9.6 (Split connection approach), 9.7 (Snoop protocol). For the ELN approach read sec 3 of [[http://nms.lcs.mit.edu/~hari/papers/globecom98/|this paper]]. 
+
+=== Homeworks ===
+  * [[https://drive.google.com/file/d/0B5_bVEzxY25Ta2JDU1Vhb3ZuOWc/view?usp=sharing|Homework 1]] (due Feb 24) [[https://drive.google.com/file/d/0B5_bVEzxY25TTGU5aE5uT0o5Nm8/view?usp=sharing|Solutions]]
+  * [[https://drive.google.com/open?id=1dJlSVwrc0exf_LTgPRpxsna49etDRC1uOQSOgHd8hbU&authuser=0| Homework2]] (due March 5) [[https://drive.google.com/open?id=1LZrkc-brlwV_f6OwOF1FqhGc_6-1Ra4DdKue0-Iuh1U&authuser=0| Solutions]]
+  * [[https://drive.google.com/open?id=1EuHfylgtBgkuixESosEOvM9LDAbglOjeG6N9WJuegcg&authuser=0|Homework 3]] (due April 30) [[https://drive.google.com/open?id=1XqSeR0alC-IWBBC4c9dis_mGfk__dq3s0TOq0d4cXT4&authuser=0|Solutions]]
+  * [[https://drive.google.com/open?id=1Cqwq20XihHiqh30mmiqneFPL8MmFHiuOIWOdNgHDyiI&authuser=0|Homework 4]] in groups of 2 students (due May 13) 
+
+---- 
+
+=== Exams ===
+  * Midterm on March 26. [[https://drive.google.com/open?id=1ZUc5C4TvKRplGUdS65wb9IOuQ-9Jv41UVUQMO6Bl2Gg&authuser=0|Readings/review.]]
+  * [[https://drive.google.com/file/d/0B5_bVEzxY25TSmFrUWJuamg1WUE/view?usp=sharing| Midterm solutions.]]
+  * Final Exam on May 13, 5:30pm. [[https://drive.google.com/open?id=1PNDEpZGgSGBDUrs3G3XAtfEBqasjwwLdGRDj16SOEmQ&authuser=0| Readings/review]]

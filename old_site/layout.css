@@ -1,0 +1,158 @@
+html {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+}
+
+body {
+	/*
+	display: inline-block;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	padding: 0px;
+	*/
+	margin-top: 0px;
+	background-color: #F5F5F5;
+	font-size: small;
+	font-family:  Arial, Verdana, sans-serif, "Lucida Grande", Tahoma;	
+	color: #222222;
+}
+
+a {
+	color: #25164B;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #DB4A04;
+	text-decoration: none;
+}
+
+#layout{
+	background-color: white;
+	width: 850px;
+	height:auto;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #333333;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #333333;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+}
+
+#aligner{
+	width: 100%;
+}
+
+
+.header{
+	border-bottom-width: 5px;
+	/* border-bottom-color: #B1D34B; */
+	border-bottom-color:  #B1D34B;
+	border-bottom-style: solid;
+	height: 81px;
+	margin-left: 0px;
+	width: 100%;
+}
+
+.header .logo{
+	padding-right: 5px;
+	width: 100px;
+}
+
+.header .nrl{
+	
+	padding-top: 20px;
+	width: auto;
+	
+}
+
+.header .hd_right{
+	text-align: right;
+}
+
+.header .emptyspace{
+	width:75px;
+}
+
+.header .login{
+	/*float: right;	
+	width: 150px;*/
+	text-align: right;
+	vertical-align:top;
+	padding-right: 5px;
+	
+}
+
+#flashcontainer{
+	color: red;
+	size: 12px;
+}
+
+#footer{
+	vertical-align: middle;
+	padding-top: 5px;
+	font-size: 11px;
+	height: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.menu_maker{
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-color:#808080;
+	border-bottom-style:ridge;
+	height: 30px;
+}
+.menu_maker .right_mv{
+	/*float: right;*/
+}
+
+
+.menu{
+	
+}
+
+.menu .emptyspace{
+	width: 170px;
+}
+
+.menu .each_menu{
+	padding-right: 20px;
+}
+
+.content{
+	font-size: 13px;	
+}
+.content .left{
+	vertical-align: top;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	width: 500px;
+}
+
+.content .right{
+	vertical-align: top;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	width: 350px;
+}
+
+.notice{
+	font-size: 11px;	
+	text-align: right;
+}
+
+#contents{
+	padding: 15px;
+	font-size: 13px;
+}
+
+
+
+
