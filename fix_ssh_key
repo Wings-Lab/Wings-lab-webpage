@@ -1,0 +1,6 @@
+Links that help me fix the ssh key issue
+https://www.digitalocean.com/docs/droplets/resources/troubleshooting-ssh/authentication/
+https://unix.stackexchange.com/questions/36540/why-am-i-still-getting-a-password-prompt-with-ssh-with-public-key-authentication
+
+
+ssh wings@130.245.144.8 "cd /var/www/html && git pull"
