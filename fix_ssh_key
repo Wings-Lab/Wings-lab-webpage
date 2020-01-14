@@ -2,12 +2,14 @@
 @author Caitao Zhan
 @date   1/14/2020
 
-Issue solved: Previously, the web server's ssh key authentication is skrewed. So I must input password each time.
+Issue solved: Previously, the web server's ssh key authentication is screwed up. So I must input password each time I log in.
 '''
 
 Links that help me fix the ssh key issue
 https://www.digitalocean.com/docs/droplets/resources/troubleshooting-ssh/authentication/
 https://unix.stackexchange.com/questions/36540/why-am-i-still-getting-a-password-prompt-with-ssh-with-public-key-authentication
 
+
+Now update the web server with a single line at your local machine:
 
 ssh wings@130.245.144.8 "cd /var/www/html && git pull"
