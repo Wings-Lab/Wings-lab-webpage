@@ -13,3 +13,7 @@ https://unix.stackexchange.com/questions/36540/why-am-i-still-getting-a-password
 Now update the web server with a single line at your local machine:
 
 ssh wings@130.245.144.8 "cd /var/www/html && git pull"
+
+
+git pull error: fatal: unable to access 'https://github.com/Wings-Lab/Wings-lab-webpage.git/': server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
+fix: https://stackoverflow.com/questions/21181231/server-certificate-verification-failed-cafile-etc-ssl-certs-ca-certificates-c
